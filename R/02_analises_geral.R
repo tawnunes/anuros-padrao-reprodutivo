@@ -22,6 +22,12 @@ library(DHARMa) # análise dos resíduos do modelo
 
 anuros <- read.csv("data/processed/dados_anuros_completo.csv")
 
+# Número de espécies: 718
+n_distinct(anuros$species)
+
+# Número de famílias: 38
+n_distinct(anuros$family)
+
 # SELECIONANDO DADOS ----------------------------------------------------------------------------------------
 
 anuros_reprod <- anuros %>% 
@@ -74,6 +80,62 @@ plot(anuros_reprod$breeding_pattern)
 # visualizando relação entre variável resposta e explicativa
 plot(anuros_reprod$total_area, anuros_reprod$breeding_pattern)
 # não é possível identificar um padrão claro
+
+# GRÁFICO DAS FAMÍLIAS -------------------------------------------------------------------------------------------
+
+anuros_graph <- anuros_reprod %>% 
+    group_by(family, breeding_pattern) %>% 
+    summarise(n_species = n()) %>% 
+    arrange(breeding_pattern)
+
+# Set a number of 'empty bar' to add at the end of each group
+empty_bar <- 1
+to_add <- data.frame( matrix(NA, empty_bar*nlevels(anuros_graph$breeding_pattern), ncol(anuros_graph)) )
+colnames(to_add) <- colnames(anuros_graph)
+to_add$breeding_pattern <- rep(levels(anuros_graph$breeding_pattern), each=empty_bar)
+data <- rbind(anuros_graph, to_add)
+data <- data %>% arrange(breeding_pattern, n_species)
+data$id <- seq(1, nrow(data))
+
+# Get the name and the y position of each label
+label_data <- data
+number_of_bar <- nrow(label_data)
+angle <- 90 - 360 * (label_data$id-0.5) /number_of_bar     # I substract 0.5 because the letter must have the angle of the center of the bars. Not extreme right(1) or extreme left (0)
+label_data$hjust <- ifelse( angle < -90, 1, 0)
+label_data$angle <- ifelse(angle < -90, angle+180, angle)
+
+# prepare a data frame for base lines
+base_data <- data %>% 
+    group_by(breeding_pattern) %>% 
+    summarize(start=min(id), end=max(id) - empty_bar) %>% 
+    rowwise() %>% 
+    mutate(title=mean(c(start, end)))
+
+# Make the plot
+p <- ggplot(data, aes(x=as.factor(id), y=n_species, fill=breeding_pattern)) +       # Note that id is a factor. If x is numeric, there is some space between the first bar
+    geom_bar(stat="identity", alpha=0.5) +
+    ylim(-20,50) +
+    theme_minimal() +
+    theme(
+        legend.position = "top",
+        axis.text = element_blank(),
+        axis.title = element_blank(),
+        panel.grid = element_blank(),
+        #plot.margin = unit(rep(-1,4), "cm") 
+    ) 
+
+p2 <- p + scale_fill_manual(name = "Padrão Reprodutivo", 
+                      labels =c("Explosivo", "Prolongado"),
+                      values = c("darkolivegreen","darkorange"))+
+    coord_polar() + 
+    geom_text(data=label_data, aes(x=id, y=n_species+5, 
+                                   label=paste0("(",n_species,") ",family), hjust=hjust), 
+              Color="black", fontface="bold",alpha=0.6, size=4, angle= label_data$angle, inherit.aes = FALSE)#+
+
+
+p
+
+#   ERROOOOO
 
 # TRANSFORMANDO OS DADOS DE ÁREA DO RANGE DE OCORRÊNICA ----------------------------------------------------------
 
