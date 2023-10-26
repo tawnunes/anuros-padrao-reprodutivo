@@ -1,0 +1,723 @@
+family;species;male_svl_mm;female_svl_mm;fecundity_measure;fecundity_unit;breeding_pattern;evidences_territoriality;aquatic_reproduction;reference1;reference2;reference3;reference4
+Allophrynidae;Allophryne ruthveni;22.6;27;300;eggs per clutch;Explosive;NA;1;Duellman 1997;Gottsberger and Gruber 2004;NA;NA
+Alytidae;Alytes cisternasii;35.79;38.58;77.42;eggs per clutch;Explosive;NA;0;Márquez et al. 1997;Márquez 1992;NA;NA
+Alytidae;Alytes obstetricans;41.74;49.69;63.67;eggs per clutch;Prolonged;NA;0;Márquez et al. 1997;Márquez 1992;NA;NA
+Bombinatoridae;Barbourula busuangensis;84.8;85.3;78;eggs per clutch;NA;NA;NA;Inger 1954;NA;NA;NA
+Bombinatoridae;Bombina bombina;NA;NA;190;eggs per clutch;Explosive;Yes;1;Kuzmin 1999;Wells 1977;NA;NA
+Bombinatoridae;Bombina maxima;49.2;50.9;NA;NA;NA;NA;1;Yang 1991;NA;NA;NA
+Bombinatoridae;Bombina microdeladigitora;58.4;63.4;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Bombinatoridae;Bombina orientalis;42.1;47;165;eggs per clutch;NA;Yes;1;Okada 1966;Kuzmin 1999;NA;NA
+Bombinatoridae;Bombina variegata;NA;NA;72;eggs per clutch;Explosive;Yes;1;Kuzmin 1999;Wells 1977;NA;NA
+Brachycephalidae;Brachycephalus crispus;12;14;NA;NA;NA;NA;0;Condez et al. 2014;NA;NA;NA
+Brachycephalidae;Brachycephalus didactylus;6.5;8.3;NA;NA;NA;NA;0;Pers. Comm. T. H. Condez;NA;NA;NA
+Brachycephalidae;Brachycephalus ephippium;14.33;16.66;5;actual clutches;NA;Yes;0;Pombal-Jr 1992;NA;NA;NA
+Brachycephalidae;Brachycephalus ferruginus;12.2;13.8;NA;NA;NA;NA;0;Alves et al. 2006;NA;NA;NA
+Brachycephalidae;Brachycephalus pitanga;11.5;13.4;NA;NA;NA;NA;0;Alves et al. 2009;NA;NA;NA
+Brachycephalidae;Brachycephalus pombali;13.3;15;NA;NA;NA;NA;0;Alves et al. 2006;NA;NA;NA
+Brachycephalidae;Brachycephalus toby;11.8;13.9;NA;NA;NA;NA;0;Haddad et al. 2010;NA;NA;NA
+Brachycephalidae;Brachycephalus tridactylus;11.63;13.67;NA;NA;NA;NA;0;Garey et al. 2012;NA;NA;NA
+Brachycephalidae;Ischnocnema guentheri ;25.53;36.64;35;eggs per clutch;Prolonged;NA;0;Giasson 2008;Haddad 1991;Giaretta and Facure 2008;NA
+Brachycephalidae;Ischnocnema juipoca;19.95;26.26;15;eggs per clutch;Prolonged;Yes;0;Haddad 1991;Giaretta 1994;Giaretta and Facure 2008;NA
+Brachycephalidae;Ischnocnema parva;15.67;19.86;20;eggs per clutch;Prolonged;NA;0;Giasson 2008;Giaretta and Facure 2008;NA;NA
+Brevicipitidae;Breviceps fichus;35;43;NA;NA;Explosive;NA;0;Harper et al. 2010;Giaretta and Facure 2008;NA;NA
+Brevicipitidae;Callulina dawida;27.1;29.1;NA;NA;NA;NA;NA;Loader et al. 2009;NA;NA;NA
+Bufonidae;Amietophrynus maculatus;NA;NA;NA;NA;Prolonged;Yes;1;Wells 1977;NA;NA;NA
+Bufonidae;Amietophrynus pardalis;94.8;109;NA;NA;NA;Yes;1;Cherry 1992;NA;NA;NA
+Bufonidae;Amietophrynus regularis;NA;NA;15000;eggs per clutch;Explosive;Yes;1;Wager 1965;Wells 1977;NA;NA
+Bufonidae;Anaxyrus americanus;53.1;64.1;6000;eggs per clutch;Explosive;Yes;1;Wilbur et al. 1978;Wright and Wright 1949;Howard 1988;Swanson et al. 2007
+Bufonidae;Anaxyrus boreas;NA;NA;5213;eggs per clutch;Explosive;Yes;1;Degenhardt et al. 1996;Wells 1977;NA;NA
+Bufonidae;Anaxyrus canorus;NA;NA;NA;NA;Prolonged;Yes;1;Wells 1977;NA;NA;NA
+Bufonidae;Anaxyrus cognatus;NA;NA;22148;eggs per clutch;Explosive;Yes;1;Degenhardt et al. 1996;Wells 1977;NA;NA
+Bufonidae;Anaxyrus debilis;35.1;36.5;NA;NA;NA;NA;1;Bogert 1962;NA;NA;NA
+Bufonidae;Anaxyrus exsul;51.6;50.9;NA;NA;Explosive;Yes;1;Murphy et al. 2003;Schuierer 1962;Wells 1977;NA
+Bufonidae;Anaxyrus fowleri;55.7;71.5;8000;eggs per clutch;Prolonged;NA;1;Hulse et al. 2001;Cook et al. 2011;NA;NA
+Bufonidae;Anaxyrus quercicus;27.5;28.9;NA;NA;NA;NA;1;Wilbur et al. 1978;NA;NA;NA
+Bufonidae;Anaxyrus retiformis;44.4;52.5;NA;NA;NA;NA;1;Bogert 1962;NA;NA;NA
+Bufonidae;Anaxyrus woodhousii;NA;NA;10500;eggs per clutch;Explosive;Yes;1;Degenhardt et al. 1996;Saenz et al. 2006;NA;NA
+Bufonidae;Ansonia malayana;22.1;27;NA;NA;NA;NA;1;Dring 1979;NA;NA;NA
+Bufonidae;Atelopus chiriquiensis;31;42.5;364;eggs per clutch;NA;Yes;1;Savage 2002;NA;NA;NA
+Bufonidae;Atelopus senex;30;36.5;NA;NA;NA;NA;1;Savage 1972;NA;NA;NA
+Bufonidae;Atelopus spumarius;27.5;35;NA;NA;NA;NA;1;Rodriguez and Duellman 1994;NA;NA;NA
+Bufonidae;Atelopus varius;33;40.5;950;eggs per clutch;NA;Yes;1;Savage 2002;NA;NA;NA
+Bufonidae;Bufo aspinius;74.4;95;2250;eggs per clutch;NA;Yes;1;Fei et al. 2009;NA;NA;NA
+Bufonidae;Bufo bankorensis;86;99;3725;eggs per clutch;NA;NA;1;Schimidt 1927;Pope 1931;NA;NA
+Bufonidae;Bufo bufo;59.4;69.4;5332;eggs per clutch;Explosive;Yes;1;Davies and Halliday 1977;Beebee and Griffiths 2000, Hettyey et al. 2005;NA;NA
+Bufonidae;Bufo gargarizans;61.7;72.2;4000;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Bufonidae;Bufo stejnegeri;55;54.6;830;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Bufonidae;Bufo verrucosissimus;83.5;141;5685;eggs per clutch;NA;NA;1;Kuzmin 1999;NA;NA;NA
+Bufonidae;Bufotes pewzowi;72.2;80.3;3250;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Bufonidae;Capensibufo rosei;28;39;NA;NA;Explosive;NA;1;Channing 2001;Wells 1977;NA;NA
+Bufonidae;Dendrophryniscus brevipollicatus;15.9;19.72;18.5;oocytes;NA;NA;0;Giasson 2008;NA;NA;NA
+Bufonidae;Dendrophryniscus minutus;16.5;20.5;160;eggs per clutch;Prolonged;NA;1;Rodriguez and Duellman 1994;Crump 1974;NA;NA
+Bufonidae;Duttaphrynus himalayanus;87.8;95.8;NA;NA;NA;NA;1;Yang 1991, Hu et al. 1987;NA;NA;NA
+Bufonidae;Duttaphrynus melanostictus;68.5;75.2;NA;NA;NA;NA;1;Inger 1966;NA;NA;NA
+Bufonidae;Incilius alvarius;NA;NA;7750;eggs per clutch;Explosive;Yes;1;Wright and Wright 1949;Wells 1977;NA;NA
+Bufonidae;Incilius coccifer;51.4;67.7;3000;eggs per clutch;NA;NA;1;Mendelson et al. 2005;Savage 2002;NA;NA
+Bufonidae;Incilius ibarrai;62.2;78.4;NA;NA;NA;NA;1;Mendelson et al. 2005;NA;NA;NA
+Bufonidae;Incilius nebulifer;44.2;52;9000;eggs per clutch;NA;NA;1;Stebbins and Hendrickson 1959;Cei 1980;NA;NA
+Bufonidae;Ingerophrynus biporcatus;49;59.8;NA;NA;NA;NA;1;Inger 1966;NA;NA;NA
+Bufonidae;Mertensophryne taitana;23.4;28.5;NA;NA;NA;NA;1;Stewart 1967;NA;NA;NA
+Bufonidae;Peltophryne fustiger;131;154.7;NA;NA;NA;NA;1;Valdes 1988;NA;NA;NA
+Bufonidae;Peltophryne peltocephala;120.9;134.1;NA;NA;NA;NA;1;Valdes 1988;NA;NA;NA
+Bufonidae;Phrynoidis asper;83;102.7;12792;eggs per clutch;NA;NA;1;Inger 1966;Inger and Bacon 1968;NA;NA
+Bufonidae;Rhaebo glaberrimus;80;80;NA;NA;NA;NA;1;Bartlett and Bartlett 2003;NA;NA;NA
+Bufonidae;Rhaebo haematiticus;62;80;NA;NA;Explosive;NA;1;Savage 2002;NA;NA;NA
+Bufonidae;Rhinella castaneotica;46.1;50.5;178;eggs per clutch;NA;NA;0;Caramaschi and Niemeyer 2003;Caldwell and Araujo 2004;NA;NA
+Bufonidae;Rhinella chavin;50.2;59.5;276;eggs per clutch;NA;NA;1;Lehr et al. 2001;NA;NA;NA
+Bufonidae;Rhinella crucifer;68.85;81;4669.67;actual clutches;Explosive;NA;1;Haddad 1991;NA;NA;NA
+Bufonidae;Rhinella dapsilis;65;77;NA;NA;Explosive;NA;1;Rodriguez and Duellman 1994;Wells 2007;NA;NA
+Bufonidae;Rhinella icterica;134.84;163;14689.66;actual clutches;Explosive;Yes;1;Haddad 1991;NA;NA;NA
+Bufonidae;Rhinella margaritifera;51.8;74;1537;eggs per clutch;Explosive;Yes;1;Crump 1974;Wells 1979;NA;NA
+Bufonidae;Rhinella marina;96;118.4;35000;eggs per clutch;Explosive;Yes;1;Stebbins and Hendrickson 1959;Crump 1974;Savage 2002;Wells 1977
+Bufonidae;Rhinella ornata;65.57;84.29;NA;NA;NA;NA;1;Giasson 2008;NA;NA;NA
+Bufonidae;Rhinella schneideri;128;150;NA;NA;Explosive;Yes;1;Prado 2004;Prado et al. 2005;Pers. Obs. C. F. B. Haddad;NA
+Bufonidae;Rhinella scitula;41.8;48;900;eggs per clutch;Explosive;NA;1;Caramaschi and Niemeyer 2003;Landgref Filho et al. 2002;NA;NA
+Bufonidae;Schismaderma carens;88;92;6264;eggs per clutch;Explosive;NA;1;Channing 2001;Du Preez et al. 2003;Stewart 1967, Wager 1965;NA
+Centrolenidae;Centrolene geckoideum;74.5;62;112;eggs per clutch;NA;NA;0;Lynch and Duellman 1973;NA;NA;NA
+Centrolenidae;Cochranella euknemos;25.5;31;55;eggs per clutch;NA;NA;0;Savage 2002, Kubicki 2007;Kubicki 2007;NA;NA
+Centrolenidae;Cochranella granulosa;25.8;30.5;55;eggs per clutch;NA;Yes;0;Savage 2002;Kubicki 2007;NA;NA
+Centrolenidae;Espadarana prosoblepon;24.1;26.4;20;eggs per clutch;NA;Yes;0;Lynch and Duellman 1973;Savage 2002, Kubicki 2007;NA;NA
+Centrolenidae;Hyalinobatrachium chirripoi;25.5;29;70;eggs per clutch;NA;NA;0;Kubicki 2007;NA;NA;NA
+Centrolenidae;Hyalinobatrachium colymbiphyllum;25;26.8;50;eggs per clutch;NA;Yes;0;Savage 2002, Kubicki 2007;Savage 2002;NA;NA
+Centrolenidae;Hyalinobatrachium fleischmanni;22.4;27.5;30;eggs per clutch;NA;NA;0;Savage 2002;Savage 2002, Kubicki 2007;NA;NA
+Centrolenidae;Hyalinobatrachium talamancae;23.5;25.5;28;eggs per clutch;NA;NA;0;Kubicki 2007;NA;NA;NA
+Centrolenidae;Hyalinobatrachium valerioi;21.8;24.3;35;eggs per clutch;NA;Yes;0;Savage 2002, Kubicki 2007;NA;NA;NA
+Centrolenidae;Nymphargus griffithsi;24.1;23.4;NA;NA;NA;Yes;0;Lynch and Duellman 1973;Duellman and Trueb 1994;NA;NA
+Centrolenidae;Sachatamia albomaculata;24.8;27;NA;NA;NA;NA;0;Savage 2002, Kubicki 2007;NA;NA;NA
+Centrolenidae;Sachatamia ilex;28.5;32.5;20;eggs per clutch;NA;Yes;0;Savage 2002, Kubicki 2007;Kubicki 2007;NA;NA
+Centrolenidae;Teratohyla midas;18.4;22.7;28;eggs per clutch;NA;NA;0;Lynch and Duellman 1973;Crump 1974;NA;NA
+Centrolenidae;Teratohyla pulverata;26;29.5;42;eggs per clutch;NA;NA;0;Savage 2002;NA;NA;NA
+Centrolenidae;Teratohyla spinosa;18.9;21.5;20;eggs per clutch;NA;NA;0;Savage 2002, Kubicki 2007;Kubicki 2007;NA;NA
+Ceratophryidae;Ceratophrys aurita;101;149;NA;NA;Explosive;NA;1;Haddad et al. 2013;Natale et al. 2011;NA;NA
+Ceratophryidae;Ceratophrys cranwelli;88.9;158;3696;eggs per clutch;Explosive;NA;1;Perotti 1997;Natale et al. 2011;Marangoni et al. 2009;NA
+Ceratophryidae;Ceratophrys joazeirensis;84;105;NA;NA;Explosive;NA;1;Haddad et al. 2013;Natale et al. 2011;NA;NA
+Ceratophryidae;Lepidobatrachus laevis;NA;120.5;1378;eggs per clutch;Explosive;NA;1;Perotti 1997;NA;NA;NA
+Ceratophryidae;Lepidobatrachus llanensis;NA;85.5;684;eggs per clutch;Explosive;NA;1;Perotti 1997;NA;NA;NA
+Conrauidae;Conraua goliath;270;254;100;eggs per clutch;NA;NA;1;Sabater-Pi 1985;NA;NA;NA
+Craugastoridae;Haddadus binotatus;34.5;53.1;NA;NA;Prolonged;NA;0;Dias et al. 2012;NA;NA;NA
+Craugastoridae;Oreobates quixensis;43.8;57.6;35;eggs per clutch;Prolonged;NA;0;Duellman 1996;Crump 1974;NA;NA
+Craugastoridae;Pristimantis croceoinguinis;NA;20.3;4.8;eggs per clutch;Prolonged;NA;0;Crump 1974;NA;NA;NA
+Craugastoridae;Pristimantis lanthanites;NA;38.7;30.4;eggs per clutch;Prolonged;NA;0;Crump 1974;NA;NA;NA
+Craugastoridae;Pristimantis variabilis;NA;24.4;6.7;eggs per clutch;Prolonged;NA;0;Crump 1974;NA;NA;NA
+Cycloramphidae;Cycloramphus boraceiensis;38.66;53.01;81.75;oocytes;Prolonged;NA;1;Hartmann 2004;NA;NA;NA
+Cycloramphidae;Thoropa lutzi;25.2;25.4;33;actual clutches;Prolonged;Yes;1;Feio 2002;NA;NA;NA
+Cycloramphidae;Thoropa megatympanum;43.13;40.98;42;oocytes;NA;Yes;1;Feio 2002;Eterovick 1998;NA;NA
+Cycloramphidae;Thoropa miliaris;57.26;56.03;400;oocytes;NA;Yes;1;Feio 2002;NA;NA;NA
+Cycloramphidae;Thoropa petropolitana;18.7;21.6;NA;NA;NA;NA;1;Feio 2002;NA;NA;NA
+Cycloramphidae;Thoropa saxatilis;52.7;50.4;NA;NA;Prolonged;Yes;1;Feio 2002;NA;NA;NA
+Cycloramphidae;Thoropa taophora;72.75;72.43;765.66;eggs per clutch;Prolonged;Yes;1;Hartmann 2004;Giaretta and Facure 2004;NA;NA
+Dendrobatidae;Adelphobates galactonotus;33.2;35.7;NA;NA;NA;NA;0;Silverstone 1975;NA;NA;NA
+Dendrobatidae;Adelphobates quinquevittatus;16.6;17.3;NA;NA;NA;NA;0;Silverstone 1975, Myers 1982;NA;NA;NA
+Dendrobatidae;Allobates brunneus;17.9;19.6;NA;NA;NA;NA;0;Caldwell and Lima 2003;NA;NA;NA
+Dendrobatidae;Allobates caeruleodactylus;15.5;16.3;NA;NA;NA;Yes;0;Caldwell and Lima 2003;Lima et al. 2002;NA;NA
+Dendrobatidae;Allobates femoralis;25.8;27.3;22.7;eggs per clutch;Prolonged;Yes;0;Silverstonee 1976;Crump 1974;Hödl et al. 2004;NA
+Dendrobatidae;Allobates nidicola;19.6;20.2;4;eggs per clutch;NA;NA;0;Caldwell and Lima 2003;NA;NA;NA
+Dendrobatidae;Allobates talamancae;20.4;24;18;eggs per clutch;NA;Yes;0;Savage 2002;Pröhl 2005;NA;NA
+Dendrobatidae;Allobates zaparo;27.8;28;NA;NA;NA;NA;0;Silverstone 1976;NA;NA;NA
+Dendrobatidae;Ameerega hahneli;18;20.5;22;eggs per clutch;Prolonged;NA;0;Rodriguez and Duellman 1994;Gottsberger and Gruber 2004;NA;NA
+Dendrobatidae;Ameerega parvula;19;21.2;8;eggs per clutch;Prolonged;Yes;0;Silverstone 1976, Crump 1974;Crump 1974;Wells 2007;NA
+Dendrobatidae;Ameerega petersi;24.8;28;NA;NA;NA;NA;0;Silverstone 1976;NA;NA;NA
+Dendrobatidae;Ameerega picta;23.2;24.4;18;eggs per clutch;Prolonged;Yes;0;Silverstone 1976, Crump 1974;Crump 1974;Wells 2007;NA
+Dendrobatidae;Ameerega pulchripecta;22.6;26;NA;NA;NA;NA;0;Silverstone 1976;NA;NA;NA
+Dendrobatidae;Ameerega Silverstoneei;35.9;41.8;30;eggs per clutch;NA;NA;0;Myers and Daly 1979;NA;NA;NA
+Dendrobatidae;Ameerega trivittata;37.9;43.6;50;eggs per clutch;NA;Yes;0;Silverstone 1976, Duellman 1996;Myers and Daly 1979, Rodriguez and Duellman 1994;Silverstone 1976, Roithmair 1994;NA
+Dendrobatidae;Andinobates fulguritus;14.5;15.2;NA;NA;NA;NA;0;Silverstone 1975;NA;NA;NA
+Dendrobatidae;Andinobates minutus;13.2;13.5;NA;NA;NA;NA;0;Silverstone 1975;NA;NA;NA
+Dendrobatidae;Anomaloglossus stepheni;16.6;17.1;4;eggs per clutch;NA;Yes;0;Caldwell and Lima 2003;Juncá and Rodrigues 2006;NA;NA
+Dendrobatidae;Dendrobates auratus;30.3;33.7;8;eggs per clutch;NA;Yes;0;Silverstone 1975, Summers 1989;Dunn 1941, Savage 2002;Eens and Pinxten 2000;NA
+Dendrobatidae;Dendrobates leucomelas;32.7;35.1;5;eggs per clutch;NA;Yes;0;Silverstone 1975, Summers 1989;Summers 1992a;Summers 1992b;NA
+Dendrobatidae;Dendrobates tinctorius;41;46.5;5;eggs per clutch;NA;NA;0;Silverstone 1975;Summers et al. 1999;NA;NA
+Dendrobatidae;Dendrobates truncatus;25.6;28.7;5;eggs per clutch;NA;NA;0;Silverstone 1975;Summers et al. 1999;NA;NA
+Dendrobatidae;Epipedobates anthonyi;18.1;20;NA;NA;NA;NA;0;Silverstone 1976;NA;NA;NA
+Dendrobatidae;Epipedobates boulengeri;16.9;18.5;NA;NA;NA;NA;0;Silverstone 1976;NA;NA;NA
+Dendrobatidae;Epipedobates tricolor;21;23.3;NA;NA;NA;Yes;0;Duellman and Wild 1993, Silverstone 1976;Hermans et al. 2002;NA;NA
+Dendrobatidae;Hyloxalus awa;19.3;22.5;21;eggs per clutch;NA;Yes;0;Coloma 1995;NA;NA;NA
+Dendrobatidae;Hyloxalus elachyhistus;18.3;21.2;19;eggs per clutch;NA;NA;0;Duellman and Wild 1993;Edwards 1971;NA;NA
+Dendrobatidae;Hyloxalus idiomelus;22;25.1;NA;NA;NA;NA;0;Duellman 2004;NA;NA;NA
+Dendrobatidae;Hyloxalus insulatus;21.3;18.3;NA;NA;NA;NA;0;Duellman 2004;NA;NA;NA
+Dendrobatidae;Hyloxalus nexipus;19.3;21.4;NA;NA;NA;NA;0;Coloma 1995, Duellman 2004;NA;NA;NA
+Dendrobatidae;Hyloxalus subpunctatus;21.4;24.3;21;eggs per clutch;NA;NA;0;Stebbins and Hendrickson 1959;NA;NA;NA
+Dendrobatidae;Hyloxalus sylvaticus;23.7;28.6;NA;NA;NA;NA;0;Duellman and Wild 1993, Duellman 2004;NA;NA;NA
+Dendrobatidae;Hyloxalus vertebralis;16.1;17.9;NA;NA;NA;NA;0;Coloma 1995, Edwards 1971;NA;NA;NA
+Dendrobatidae;Mannophryne trinitatis;23.1;25.6;10;eggs per clutch;NA;Yes;0;Sexton 1960;Jowers and Downie 2005;NA;NA
+Dendrobatidae;Oophaga granulifera;20.7;20.8;3;eggs per clutch;NA;Yes;0;Silverstone 1975;Savage 2002;NA;NA
+Dendrobatidae;Oophaga histrionica;33;32.7;NA;NA;NA;Yes;0;Silverstone 1975, Summers 1989, Myers and Bohme 1996;Summers 1992b;NA;NA
+Dendrobatidae;Oophaga lehmanni;33.4;32.9;NA;NA;NA;Yes;0;Myers and Daly 1976;NA;NA;NA
+Dendrobatidae;Oophaga pumilio;20.9;20.7;3;eggs per clutch;NA;Yes;0;Silverstone 1975, Summers 1979;Pröhl 2005;Wells 1977;NA
+Dendrobatidae;Oophaga speciosa;28.4;29.1;NA;NA;NA;Yes;0;Silverstone 1975;Jungfer 1985;NA;NA
+Dendrobatidae;Phyllobates aurotaenia;26.9;30.4;NA;NA;NA;NA;0;Silverstone 1976;NA;NA;NA
+Dendrobatidae;Phyllobates bicolor;36.2;39.2;23;eggs per clutch;NA;NA;0;Silverstone 1976, Myers and Bohme 1996, Myers et al. 1978;Lötters et al. 2007;NA;NA
+Dendrobatidae;Phyllobates lugubris;19.2;22.2;18;eggs per clutch;NA;NA;0;Silverstone 1976;Lötters et al. 2007;NA;NA
+Dendrobatidae;Phyllobates terribilis;41.1;43.2;15;eggs per clutch;NA;Yes;0;Myers et al. 1978;Wells 2007;NA;NA
+Dendrobatidae;Phyllobates vittatus;24.4;27.7;19;eggs per clutch;NA;Yes;0;Silverstone 1976;Savage 2002;Silverstone 1976, Summers 2000;NA
+Dendrobatidae;Ranitomeya imitator;17.4;18.2;2;eggs per clutch;NA;Yes;0;Brown et al. 2008;Schulte 1986;NA;NA
+Dendrobatidae;Ranitomeya reticulata;14.4;15.1;2;eggs per clutch;NA;NA;0;Myers 1982;Rodriguez and Duellman 1994;NA;NA
+Dendrobatidae;Ranitomeya vanzolinii;17.8;17.9;2;eggs per clutch;NA;NA;0;Myers 1982;Lötters et al. 2007;NA;NA
+Dendrobatidae;Ranitomeya variabilis;17.4;18;6;eggs per clutch;NA;Yes;0;Brown et al. 2008;NA;NA;NA
+Dendrobatidae;Ranitomeya ventrimaculata;16;17;2;eggs per clutch;NA;Yes;0;Rodriguez and Duellman 1994;Poelman and Dicke 2006;NA;NA
+Dendrobatidae;Silverstoneeia flotator;15.5;16.4;NA;NA;NA;Yes;0;Savage 2002;NA;NA;NA
+Dendrobatidae;Silverstoneeia nubicola;18;20.3;NA;NA;NA;NA;0;Savage 2002;NA;NA;NA
+Dicroglossidae;Euphlyctis cyanophlyctis;67;48;NA;NA;Explosive;NA;1;Gramapurohit et al. 2005;Khan and Malik 1987;NA;NA
+Dicroglossidae;Fejervarya cancrivora;58.8;68.6;NA;NA;NA;NA;1;Inger 1966;NA;NA;NA
+Dicroglossidae;Fejervarya limnocharis;39;48.8;1560;eggs per clutch;NA;Yes;1;Inger 1966;Chen 1991, Ye et al. 1993;Ye et al. 1993;NA
+Dicroglossidae;Fejervarya nicobariensis;42.8;50.1;NA;NA;NA;NA;1;Inger 1966;NA;NA;NA
+Dicroglossidae;Hoplobatrachus rugulosus;82.4;71.7;2000;eggs per clutch;NA;NA;1;Chen 1991;Huang et al. 1990;NA;NA
+Dicroglossidae;Limnonectes fujianensis;53.9;47.5;53;eggs per clutch;NA;NA;NA;Fei et al. 2009;NA;NA;NA
+Dicroglossidae;Limnonectes gyldenstolpei;58.5;52.9;NA;NA;NA;NA;NA;Ohler et al. 2002;NA;NA;NA
+Dicroglossidae;Limnonectes kuhlii;55.6;54.9;80;eggs per clutch;Prolonged;Yes;NA;Yang 1991;Chen 1991;Tsuji 2004;Tsuji and Lue 2000
+Dicroglossidae;Limnonectes laticeps;43.8;40.8;NA;NA;NA;NA;NA;Dring 1979;NA;NA;NA
+Dicroglossidae;Limnonectes microdiscus;32.4;37.3;53;eggs per clutch;NA;NA;NA;Inger 1966;NA;NA;NA
+Dicroglossidae;Nannophrys ceylonensis;46.6;48.7;NA;NA;NA;Yes;1;Wickramasinghe et al. 2004;NA;NA;NA
+Dicroglossidae;Nanorana conaensis;58;55.2;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Dicroglossidae;Nanorana liebigii;77.9;83.1;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Dicroglossidae;Nanorana parkeri;45.7;49.4;NA;NA;NA;NA;1;Hu et al. 1987;NA;NA;NA
+Dicroglossidae;Nanorana pleskei;36.6;37.3;NA;NA;NA;NA;1;Ye et al. 1993;NA;NA;NA
+Dicroglossidae;Nanorana taihangnica;66.9;80.8;NA;NA;NA;NA;NA;Fei et al. 2009;NA;NA;NA
+Dicroglossidae;Nanorana ventripunctata;44.1;49.4;290;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Dicroglossidae;Nanorana yunnanensis;95.5;95;633;eggs per clutch;NA;NA;1;Pope 1931;Ye et al. 1993;NA;NA
+Dicroglossidae;Quasipaa boulengeri;100.6;103.3;NA;NA;NA;NA;1;Yang 1991;NA;NA;NA
+Dicroglossidae;Quasipaa exilispinosa;61.2;57.1;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Dicroglossidae;Quasipaa jiulongensis;74.8;91.1;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Dicroglossidae;Quasipaa shini;98.6;94.9;10;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Dicroglossidae;Quasipaa spinosa;89.2;93.2;228;eggs per clutch;NA;NA;1;Chen 1991;Chen 1991, Pope 1931;NA;NA
+Dicroglossidae;Quasipaa yei;58.1;75;NA;NA;NA;NA;NA;Fei et al. 2009;NA;NA;NA
+Eleutherodactylidae;Diasporus diastema;18.5;21;16;eggs per clutch;NA;NA;0;Savage 2002;Ovaska and Rand 2001;NA;NA
+Eleutherodactylidae;Eleutherodactylus coqui;35.6;45.9;28;eggs per clutch;Prolonged;Yes;0;Woolbright 1989;Towsend et al. 1994;Duellman and Trueb 1994, Wells 1977;NA
+Eleutherodactylidae;Eleutherodactylus cundalli;32.3;41.7;48;eggs per clutch;NA;NA;0;Diesel et al. 1995;Schwartz and Henderson 1991, Diesel et al. 1995;NA;NA
+Eleutherodactylidae;Eleutherodactylus johnstonei;23.1;26.9;20;eggs per clutch;Prolonged;Yes;0;Ortega et al. 2005;Savage 2002;Ovaska and Hunte 1992;Pers. Obs. C. F. B. Haddad
+Hemiphractidae;Stefania evansi;45.8;63.9;23;eggs per clutch;NA;NA;0;Duellman and Hoogmoed 1984;NA;NA;NA
+Hemisotidae;Hemisus marmoratus;27.9;31.8;200;eggs per clutch;NA;NA;1;Rödel 2000;Wager 1965;NA;NA
+Hylidae;Acris crepitans;22.8;24.2;500;eggs per clutch;Prolonged;Yes;1;Wright and Wright 1949, Duellman and Dennis 2001;Degenhardt et al. 1996, Smith 1950;Wagner 1989;Saenz et al. 2006
+Hylidae;Acris gryllus;22;24.5;232;eggs per clutch;NA;NA;1;Wright and Wright 1949;Stebbins 1951;NA;NA
+Hylidae;Agalychnis callidryas;48.2;62.5;265;eggs per clutch;Prolonged;Yes;0;Duellman and Dennis 2001;Duellman and Dennis 2001, Savage 2002;Wells 1977;Donnelly and Guyer 1994
+Hylidae;Agalychnis dacnicolor;67.6;79.2;467;eggs per clutch;NA;Yes;0;Duellman and Dennis 2001;Bagnara et al. 1986, Duellman and Dennis 2001;NA;NA
+Hylidae;Agalychnis lemur;33.8;42.6;45;eggs per clutch;NA;Yes;0;Duellman 1956;Savage 2002;Abrunhosa 2004, Savage 2002;NA
+Hylidae;Agalychnis saltator;43.3;57;46;eggs per clutch;Explosive;Yes;0;Duellman and Dennis 2001;Savage 2002;Roberts 1994;NA
+Hylidae;Agalychnis spurrelli;62;75;NA;NA;Explosive;NA;0;Duellman and Dennis 2001;Gomez-Mestre et al. 2008;NA;NA
+Hylidae;Anotheca spinosa;61.1;63.4;316;eggs per clutch;NA;NA;1;Duellman and Dennis 2001;Savage 2002, Schiesari et al. 2003;NA;NA
+Hylidae;Aplastodiscus albofrenatus;NA;NA;NA;NA;Prolonged;NA;1;Pers. Comm. B. V. M. Berneck;NA;NA;NA
+Hylidae;Aplastodiscus arildae;36.14;40.1;NA;NA;Prolonged;Yes;1;Zina 2006;NA;NA;NA
+Hylidae;Aplastodiscus leucopygius;39.69;40.19;219;actual clutches;Prolonged;NA;1;Haddad 1991;Zina 2006;NA;NA
+Hylidae;Aplastodiscus perviridis;39.66;42.47;227;eggs per clutch;Prolonged;NA;1;Haddad et al. 2005;Pers Comm. B. V. M. Berneck;NA;NA
+Hylidae;Bokermannohyla alvarengai;100.8;83.75;1443;actual clutches;NA;NA;1;Eterovick 1998;NA;NA;NA
+Hylidae;Bokermannohyla astartea;40.22;44.1;NA;NA;NA;NA;1;Napoli 2000;NA;NA;NA
+Hylidae;Bokermannohyla capra;51.9;61.35;NA;NA;NA;NA;1;Napoli and Pimenta 2009;NA;NA;NA
+Hylidae;Bokermannohyla circumdata;61.29;58.53;NA;NA;NA;Yes;1;Giasson 2008;Pers. Obs. C. F. B. Haddad;NA;NA
+Hylidae;Bokermannohyla hylax;56.44;60.14;NA;NA;NA;Yes;1;Giasson 2008;Pers. Obs. C. F. B. Haddad;NA;NA
+Hylidae;Bokermannohyla ibitiguara;39.9;39.96;202;eggs per clutch;Prolonged;Yes;1;Nali and Prado 2012;NA;NA;NA
+Hylidae;Bokermannohyla ibitipoca;39.75;42.3;NA;NA;NA;NA;1;Napoli 2000;NA;NA;NA
+Hylidae;Bokermannohyla itapoty;45.7;50.21;295.37;actual clutches;Prolonged;Yes;1;Lugli 2003;NA;NA;NA
+Hylidae;Bokermannohyla izecksohni;45.3;46.26;NA;NA;NA;NA;1;Napoli 2000;NA;NA;NA
+Hylidae;Bokermannohyla luctuosa;57.51;56.9;491;actual clutches;Explosive;Yes;1;Haddad 1991;Pers. Obs. C.F.B. Haddad;NA;NA
+Hylidae;Bokermannohyla martinsi;61.5;56;NA;NA;NA;NA;1;Lutz 1973;NA;NA;NA
+Hylidae;Bokermannohyla oxente;46.04;47.15;304.5;actual clutches;Prolonged;Yes;1;Lugli 2003;NA;NA;NA
+Hylidae;Bokermannohyla ravida;42.1;38;NA;NA;NA;Yes;1;Caramaschi et al. 2001;NA;NA;NA
+Hylidae;Bromeliohyla bromeliacia;27;32.4;14;eggs per clutch;NA;NA;1;Lee 2000;Duellman and Dennis 2001;NA;NA
+Hylidae;Charadrahyla taeniopus;58;64.2;NA;NA;NA;NA;NA;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Cruziohyla calcarifer;52;65;80;eggs per clutch;NA;NA;0;Duellman and Dennis 2001;Duellman and Dennis 2001, Savage 2002;NA;NA
+Hylidae;Dendropsophus anceps;37;40.3;NA;NA;NA;NA;1;Lutz 1973;NA;NA;NA
+Hylidae;Dendropsophus aperomeus;19.8;25;NA;NA;NA;NA;1;Duellman 1982;NA;NA;NA
+Hylidae;Dendropsophus berthalutzae;18.91;22.1;57;actual clutches;Explosive;NA;1;Hartmann 2004;NA;NA;NA
+Hylidae;Dendropsophus bifurcus;25.1;31.8;186;eggs per clutch;NA;NA;1;Crump 1974;NA;NA;NA
+Hylidae;Dendropsophus bipunctatus;16.5;25.5;NA;NA;NA;NA;1;Lutz 1973;NA;NA;NA
+Hylidae;Dendropsophus brevifrons;18.5;21.4;79;eggs per clutch;NA;NA;1;Crump 1974, Duellman and Crump 1974;Crump 1974;NA;NA
+Hylidae;Dendropsophus ebraccatus;25.1;36.5;NA;NA;Prolonged;Yes;1;Duellman and Dennis 2001;Savage 2002;Donnelly and Guyer 1994;NA
+Hylidae;Dendropsophus elegans;25.74;32.34;300;actual clutches;Prolonged;Yes;1;Bastos and Haddad 1996;NA;NA;NA
+Hylidae;Dendropsophus giesleri;25.16;34.52;190;oocytes;NA;NA;1;Hartmann 2004;NA;NA;NA
+Hylidae;Dendropsophus koechlini;20.5;26;NA;NA;NA;NA;1;Rodriguez and Duellman 1994;NA;NA;NA
+Hylidae;Dendropsophus leucophyllatus;33.9;42;587;eggs per clutch;NA;Yes;1;Crump 1974;Savage 2002;NA;NA
+Hylidae;Dendropsophus marmoratus;39.1;49.3;979;eggs per clutch;NA;NA;1;Crump 1974;NA;NA;NA
+Hylidae;Dendropsophus meridensis;34.4;38.5;NA;NA;NA;NA;1;Duellman 1989;NA;NA;NA
+Hylidae;Dendropsophus microcephalus;22.8;26.8;180;eggs per clutch;NA;NA;1;Stebbins and Hendrickson 1959, Duellman and Dennis 2001;Stebbins and Hendrickson 1959;NA;NA
+Hylidae;Dendropsophus microps;21.2;30.55;NA;NA;Prolonged;Yes;1;Giasson 2008;Pers. Comm. L.O.M. Giasson;Gridi-Papp 1997;NA
+Hylidae;Dendropsophus minusculus;20;23.3;NA;NA;NA;NA;1;Duellman 1997;NA;NA;NA
+Hylidae;Dendropsophus minutus;26.7;27.6;211;eggs per clutch;Prolonged;Yes;1;Prado 2004;Arzabe 1998;Giasson 2008;Crump 1974
+Hylidae;Dendropsophus miyatai;20;25;NA;NA;NA;NA;1;Bartlett and Bartlett 2003;NA;NA;NA
+Hylidae;Dendropsophus nanus;19.5;21.3;242;actual clutches;Prolonged;Yes;1;Prado 2004;Del-Grande 1995;NA;NA
+Hylidae;Dendropsophus parviceps;16.8;23.4;234;eggs per clutch;Prolonged;NA;1;Crump 1974, Duellman and Crump 1974;Crump 1974;NA;NA
+Hylidae;Dendropsophus rhodopeplus;20.7;26.7;285;eggs per clutch;NA;NA;1;Crump 1974, Duellman 1996, Rodriguez and Duellman 1994;Crump 1974;NA;NA
+Hylidae;Dendropsophus riveroi;18.5;22.8;NA;NA;NA;NA;1;Duellman 1996;NA;NA;NA
+Hylidae;Dendropsophus robertmertensi;24.7;26.6;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Dendropsophus rubicundulus;20;22;NA;NA;NA;NA;1;Lutz 1973;NA;NA;NA
+Hylidae;Dendropsophus sanborni;18.79;21.1;130;actual clutches;Prolonged;Yes;1;Del-Grande 1995;NA;NA;NA
+Hylidae;Dendropsophus sarayacuensis;25;33.5;113;eggs per clutch;NA;NA;1;Crump 1974;NA;NA;NA
+Hylidae;Dendropsophus sartori;24.8;28.6;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Dendropsophus seniculus;32.5;39.5;NA;NA;NA;NA;1;Lutz 1973;NA;NA;NA
+Hylidae;Dendropsophus timbeba;19;26;NA;NA;NA;NA;1;Rodriguez and Duellman 1994;NA;NA;NA
+Hylidae;Dendropsophus triangulum;25.4;35.4;501;eggs per clutch;Prolonged;NA;1;Crump 1974, Duellman and Crump 1974;Crump 1974;Pers. Obs. C. F. B. Haddad;NA
+Hylidae;Dendropsophus werneri;19.49;22.02;244;actual clutches;Prolonged;Yes;1;Miranda et al. 2008;NA;NA;NA
+Hylidae;Duellmanohyla rufioculis;28.2;36.7;112;eggs per clutch;NA;NA;1;Duellman and Dennis 2001;Savage 2002;NA;NA
+Hylidae;Ecnomiohyla miliaria;81.6;69.7;NA;NA;NA;Yes;NA;Duellman and Dennis 2001;Savage 2002;NA;NA
+Hylidae;Ecnomiohyla miotympanum;28.5;39.7;120;eggs per clutch;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Exerodonta melanomma;27.1;30.1;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Exerodonta sumichrasti;26.2;30.2;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Hyla andersonii;35.5;42.5;500;eggs per clutch;Prolonged;NA;1;Wright and Wright 1949;Hulse et al. 2001;Wells 1977;NA
+Hylidae;Hyla annectans;34.2;38.8;NA;NA;NA;NA;1;Yang 1991, Ye et al. 1993;NA;NA;NA
+Hylidae;Hyla arborea;24.8;33;1282;eggs per clutch;Prolonged;NA;1;Chen 1991;Kuzmin 1999;Wells 1977;NA
+Hylidae;Hyla arenicolor;35.3;47.2;NA;NA;Prolonged;Yes;1;Wright and Wright 1949;Wells 1977;NA;NA
+Hylidae;Hyla avivoca;33.5;40.5;632;eggs per clutch;Prolonged;Yes;1;Wright and Wright 1949;M. Redmer, unpublished data;NA;NA
+Hylidae;Hyla chinensis;30.6;34.2;459;eggs per clutch;NA;NA;1;Pope 1931, Ye et al. 1993, Huang et al. 1990;Chen 1991;NA;NA
+Hylidae;Hyla chrysoscelis;39.5;42;2000;eggs per clutch;Prolonged;Yes;1;Wright and Wright 1949;Hulse et al. 2001;Fellers 1979;Ritke and Semlitsch 1991
+Hylidae;Hyla cinerea;53.1;48.9;875;eggs per clutch;Prolonged;Yes;1;Garton and Brandon 1975;Saenz et al. 2006;NA;NA
+Hylidae;Hyla euphorbiacea;34.7;36.4;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Hyla eximia;27.8;28.5;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Hyla femoralis;30.5;31.5;NA;NA;NA;NA;1;Wright and Wright 1949;NA;NA;NA
+Hylidae;Hyla gratiosa;58.5;59;NA;NA;NA;NA;1;Wright and Wright 1949;NA;NA;NA
+Hylidae;Hyla japonica;32.7;28;920;eggs per clutch;Prolonged;NA;1;Okada 1966;Kuzmin 1999;Hirai and Matsui 2000;NA
+Hylidae;Hyla meridionalis;NA;NA;NA;NA;Prolonged;Yes;1;Wells 1977;NA;NA;NA
+Hylidae;Hyla plicata;39.7;43.8;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Hyla squirella;29.5;30;950;eggs per clutch;NA;Yes;1;Wright and Wright 1949;Fellers 1979;NA;NA
+Hylidae;Hyla tsinlingensis;40.5;44.1;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Hylidae;Hyla versicolor;41.5;46.5;1800;eggs per clutch;Prolonged;Yes;1;Wright and Wright 1949;Smith 1950;Fellers 1979;Gibbs and Breisch 2001
+Hylidae;Hyla walkeri;32;31.6;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Hyla wrightorum;34;36;NA;NA;NA;NA;1;Wright and Wright 1949;NA;NA;NA
+Hylidae;Hyloscirtus armatus;59.6;64.3;NA;NA;NA;NA;1;Duellman 1997;NA;NA;NA
+Hylidae;Hyloscirtus colymba;34.7;36.2;NA;NA;NA;NA;1;Duellman 1972;NA;NA;NA
+Hylidae;Hyloscirtus palmeri;40.5;43;NA;NA;NA;NA;1;Savage 2002;NA;NA;NA
+Hylidae;Hyloscirtus phyllognathus;33;36.9;NA;NA;NA;NA;1;Duellman 1972;NA;NA;NA
+Hylidae;Hyloscirtus simmonsi;36.6;44.3;NA;NA;NA;NA;1;Duellman 1989;NA;NA;NA
+Hylidae;Hypsiboas albomarginatus;49.01;57.45;NA;NA;Prolonged;Yes;1;Giasson and Haddad 2007;NA;NA;NA
+Hylidae;Hypsiboas albopunctatus;46.1;51.19;NA;NA;Prolonged;NA;1;Cardana 1995;Uetanabaro et al. 2008;NA;NA
+Hylidae;Hypsiboas balzani;40.4;48.5;NA;NA;NA;NA;1;Duellman 1997;NA;NA;NA
+Hylidae;Hypsiboas bischoffi;43.21;57.25;859;actual clutches;Prolonged;Yes;1;Haddad 1991;NA;NA;NA
+Hylidae;Hypsiboas boans;116;107;3154;eggs per clutch;NA;Yes;1;Magnusson et al. 1999;Crump 1974;NA;NA
+Hylidae;Hypsiboas caipora;33.4;40.95;72;eggs per clutch;Prolonged;Yes;1;Antunes 2007;NA;NA;NA
+Hylidae;Hypsiboas calcaratus;35.9;53.9;1143;eggs per clutch;NA;NA;1;Crump 1974;NA;NA;NA
+Hylidae;Hypsiboas cinerascens;39;41.2;426;eggs per clutch;NA;NA;1;Crump 1974;NA;NA;NA
+Hylidae;Hypsiboas crepitans;53.9;65.5;1064;eggs per clutch;NA;NA;1;Duellman and Dennis 2001, Stebbins and Hendrickson 1959;Stebbins and Hendrickson 1959;NA;NA
+Hylidae;Hypsiboas curupi;35.6;44.7;263;eggs per clutch;Prolonged;Yes;1;Antunes et al. 2008;Garcia et al. 2007;NA;NA
+Hylidae;Hypsiboas faber;84;83.8;1986;actual clutches;Prolonged;Yes;1;Martins and Haddad 1988;Martins 1993;NA;NA
+Hylidae;Hypsiboas fasciatus;35.6;46.2;569;eggs per clutch;Prolonged;NA;1;Crump 1974, Duellman 1996;Crump 1974;NA;NA
+Hylidae;Hypsiboas geographicus;44.2;66.6;2797;eggs per clutch;NA;NA;1;Crump 1974;NA;NA;NA
+Hylidae;Hypsiboas goianus;33.6;37.7;180;actual clutches;Prolonged;Yes;1;Menin et al. 2004;NA;NA;NA
+Hylidae;Hypsiboas guentheri;36.5;45.5;NA;NA;NA;NA;1;Lutz 1973;NA;NA;NA
+Hylidae;Hypsiboas heilprini;49.4;49.3;332;eggs per clutch;NA;NA;1;Trueb 1974;Nali et al. 2014;NA;NA
+Hylidae;Hypsiboas lanciformis;74.9;87;1617;eggs per clutch;Prolonged;NA;1;Crump 1974;NA;NA;NA
+Hylidae;Hypsiboas lemai;29.6;34.7;54;eggs per clutch;NA;NA;1;Duellman 1997;NA;NA;NA
+Hylidae;Hypsiboas leucocheilus;64.7;75.4;NA;NA;NA;NA;1;Caramaschi and Niemeyer 2003;NA;NA;NA
+Hylidae;Hypsiboas marianitae;47.6;51.4;NA;NA;NA;NA;1;Duellman 1997;NA;NA;NA
+Hylidae;Hypsiboas multifasciatus;48.7;57.98;NA;NA;NA;NA;1;Cardana 1995;NA;NA;NA
+Hylidae;Hypsiboas nympha;29.4;32.7;NA;NA;NA;NA;1;Faivovich et al. 2006;NA;NA;NA
+Hylidae;Hypsiboas pardalis;61.75;65.21;NA;NA;NA;Yes;1;Giasson 2008;Lutz 1973;NA;NA
+Hylidae;Hypsiboas polytaenius;30.87;37.46;291.33;actual clutches;NA;NA;1;Gridi-Papp 1997;NA;NA;NA
+Hylidae;Hypsiboas prasinus;47.6;52.73;916.2;actual clutches;Prolonged;Yes;1;Haddad 1991;NA;NA;NA
+Hylidae;Hypsiboas pulchellus;45.8;49.5;NA;NA;NA;NA;1;Lutz 1973;NA;NA;NA
+Hylidae;Hypsiboas raniceps;55.7;60.2;1991;actual clutches;Prolonged;Yes;1;Prado 2004;Prado et al. 2005;NA;NA
+Hylidae;Hypsiboas riojanus;46.5;49.8;NA;NA;NA;NA;1;Duellman 1997;NA;NA;NA
+Hylidae;Hypsiboas rosenbergi;24.7;26.6;2400;eggs per clutch;Prolonged;Yes;1;Duellman and Dennis 2001;Savage 2002;Wells 1977;NA
+Hylidae;Hypsiboas rufitelus;46.2;51.1;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Hypsiboas semiguttatus;40.6;43.1;NA;NA;NA;NA;1;Garcia et al. 2007;NA;NA;NA
+Hylidae;Hypsiboas sibleszi;32.3;35;42;eggs per clutch;NA;NA;1;Duellman 1997;NA;NA;NA
+Hylidae;Isthmohyla pseudopuma;39.7;44.3;2150;eggs per clutch;NA;Yes;1;Duellman and Dennis 2001;Savage 2002;Crump and Towsend 1990;NA
+Hylidae;Isthmohyla rivularis;32.3;35.7;90;eggs per clutch;NA;NA;NA;Duellman and Dennis 2001;Savage 2002;NA;NA
+Hylidae;Isthmohyla tica;31.6;38.9;192;eggs per clutch;NA;NA;1;Duellman and Dennis 2001;Savage 2002;NA;NA
+Hylidae;Isthmohyla zeteki;22.5;25.4;24;eggs per clutch;NA;NA;1;Duellman and Dennis 2001;Savage 2002;NA;NA
+Hylidae;Itapotihyla langsdorffii;71.61;91.49;1741.5;eggs per clutch;Explosive;NA;1;Hartmann 2004;NA;NA;NA
+Hylidae;Litoria arfakiana;50;60;NA;NA;NA;NA;1;Menzies 1976;NA;NA;NA
+Hylidae;Litoria aurea;91.8;93.9;6500;eggs per clutch;NA;NA;1;Moore 1961;Byrne et al. 2002;NA;NA
+Hylidae;Litoria australis;87;97;7000;eggs per clutch;NA;NA;1;Parker 1940;Predavec and Dickman 1993;NA;NA
+Hylidae;Litoria brevipes;37;42;930;eggs per clutch;NA;NA;1;Parker 1940;Byrne et al. 2002;NA;NA
+Hylidae;Litoria caerulea;72.1;84;1800;eggs per clutch;NA;NA;1;Moore 1961;Moore 1961, Tyler 1983;NA;NA
+Hylidae;Litoria freycineti;40;49;NA;NA;NA;NA;NA;Moore 1961;NA;NA;NA
+Hylidae;Litoria peronii;48.4;55.7;1078.8;eggs per clutch;NA;Yes;1;Tyler 1978;Wells 1977;Byrne et al. 2002;NA
+Hylidae;Litoria rubella;32.9;34.9;507.5;eggs per clutch;NA;NA;1;Tyler 1978;Tyler 1978, 1998;NA;NA
+Hylidae;Lysapsus limellum;16.6;18.6;63;actual clutches;Prolonged;NA;1;Prado 2004;NA;NA;NA
+Hylidae;Nyctimantis rugiceps;61.9;61.3;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Nyctimystes cheesmani;40;60;NA;NA;NA;NA;NA;Menzies 1976;NA;NA;NA
+Hylidae;Nyctimystes foricula;40;50;NA;NA;NA;NA;NA;Menzies 1976;NA;NA;NA
+Hylidae;Nyctimystes kubori;45;60;NA;NA;NA;NA;1;Menzies 1976;NA;NA;NA
+Hylidae;Nyctimystes papua;50;60;NA;NA;NA;NA;1;Menzies 1976;NA;NA;NA
+Hylidae;Osteocephalus alboguttatus;59;65;NA;NA;NA;NA;NA;Parker 1940;NA;NA;NA
+Hylidae;Osteocephalus buckleyi;43.3;61.7;1600;eggs per clutch;NA;NA;1;Trueb and Duellman 1971;Jungfer and Weygoldt 1999;NA;NA
+Hylidae;Osteocephalus leprieurii;44.7;57.1;848;eggs per clutch;Explosive;NA;1;Trueb and Duellman 1971;Crump 1974;Gottsberger and Gruber 2004;NA
+Hylidae;Osteocephalus taurinus;69.9;81;2000;eggs per clutch;NA;NA;1;Duellman 1997, Trueb and Duellman 1971;Lima et al. 2005;NA;NA
+Hylidae;Osteocephalus verruciger;53;64.5;NA;NA;NA;NA;1;Trueb and Duellman 1971;NA;NA;NA
+Hylidae;Osteopilus crucialis;92.6;104;NA;NA;NA;NA;1;Trueb 1974;NA;NA;NA
+Hylidae;Osteopilus dominicensis;57.8;76.8;NA;NA;NA;NA;1;Trueb 1974;NA;NA;NA
+Hylidae;Osteopilus marianae;28;38.7;NA;NA;NA;NA;1;Trueb 1974;NA;NA;NA
+Hylidae;Osteopilus ocellatus;45.5;60.5;552;eggs per clutch;NA;NA;1;Trueb 1974;Schiesari et al. 2003;NA;NA
+Hylidae;Osteopilus pulchrilineatus;31.6;40.1;NA;NA;NA;NA;1;Trueb 1974;NA;NA;NA
+Hylidae;Osteopilus septentrionalis;53.9;71.2;130;eggs per clutch;NA;Yes;1;Trueb 1974, Wright and Wright 1949;Savage 2002;Salinas 2006;NA
+Hylidae;Osteopilus vastus;96.7;136.9;NA;NA;NA;NA;1;Trueb 1974;NA;NA;NA
+Hylidae;Osteopilus wilderi;25.8;27.3;NA;NA;NA;NA;1;Trueb 1974;NA;NA;NA
+Hylidae;Phasmahyla cochranae;33.5;45.15;32;actual clutches;Prolonged;Yes;0;Haddad 1991;NA;NA;NA
+Hylidae;Phrynomedusa cf. marginata;30.56;38.71;NA;NA;NA;NA;0;Giasson 2008;NA;NA;NA
+Hylidae;Phyllomedusa atelopoides;36.5;42.5;20;eggs per clutch;NA;NA;0;Rodriguez and Duellman 1994;Duellman et al. 1988;NA;NA
+Hylidae;Phyllomedusa ayeaye;31.77;37.02;31;eggs per clutch;Prolonged;NA;0;Pers. Obs. R. C. Nali;Pers. Obs. C. F. B. Haddad;NA;NA
+Hylidae;Phyllomedusa azurea;39;43;89;eggs per clutch;Prolonged;Yes;0;Prado and Haddad 2003;Prado 2004;NA;NA
+Hylidae;Phyllomedusa bicolor;97;115;859.5;actual clutches;Prolonged;Yes;0;Neckel-Oliveira and Wachlevski 2004;Pers. Obs. C. F. B. Haddad;Rodriguez and Duellman 1994;NA
+Hylidae;Phyllomedusa burmeisteri;63.4;76.7;195;actual clutches;Prolonged;Yes;0;Abrunhosa and Wogel 2004;Haddad 1991;NA;NA
+Hylidae;Phyllomedusa distincta;56;70;214;actual clutches;Prolonged;Yes;0;Castanho 1994;Pers. Obs. C. F. B. Haddad;NA;NA
+Hylidae;Phyllomedusa hypochondrialis;35.2;44;NA;NA;NA;Yes;0;Duellman 1997;Abrunhosa and Wogel 2004;NA;NA
+Hylidae;Phyllomedusa megacephala;39.6;43.7;40;actual clutches;Prolonged;NA;0;Eterovick and Sazima 2004;Caramaschi 2006;NA;NA
+Hylidae;Phyllomedusa palliata;42.1;46.3;60;eggs per clutch;NA;NA;0;Crump 1974;NA;NA;NA
+Hylidae;Phyllomedusa sauvagii;77.3;88.4;103;eggs per clutch;Explosive;NA;0;Rodrigues et al. 2007;NA;NA;NA
+Hylidae;Phyllomedusa tarsius;86.9;104.9;548;actual clutches;NA;NA;0;Crump 1974;NA;NA;NA
+Hylidae;Phyllomedusa tomopterna;45.3;57.2;71;actual clutches;NA;NA;0;Crump 1974;NA;NA;NA
+Hylidae;Phyllomedusa vaillantii;52.1;78.8;1114;eggs per clutch;NA;NA;0;Crump 1974;NA;NA;NA
+Hylidae;Plectrohyla arborescandens;34.8;45.6;NA;NA;NA;NA;1;Caldwell 1974, Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Plectrohyla glandulosa;44.6;44.3;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Plectrohyla guatemalensis;47.5;48.6;NA;NA;NA;NA;1;Duellman and Campbell 1992;NA;NA;NA
+Hylidae;Plectrohyla matudai;33.1;49;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Plectrohyla pentheter;46.2;56.2;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Pseudacris brachyphona;24.6;30.3;950;eggs per clutch;NA;NA;1;Hulse et al. 2001;NA;NA;NA
+Hylidae;Pseudacris brimleyi;26;29.8;300;eggs per clutch;Prolonged;NA;1;Wright and Wright 1949;Gosner and Black 1958;Mitchell 1986, Brandt and Walker 1933;NA
+Hylidae;Pseudacris cadaverina;33;40.9;NA;NA;NA;Yes;1;Duellman and Dennis 2001;Wells 1977;NA;NA
+Hylidae;Pseudacris clarkii;24.5;28;1000;eggs per clutch;NA;NA;1;Wright and Wright 1949;Smith 1950;NA;NA
+Hylidae;Pseudacris crucifer;25.2;31.8;750;eggs per clutch;Prolonged;Yes;1;Wright and Wright 1949;Wright and Wright 1949, Hulse et al. 2001;Hulse et al. 2001;Gibbs and Breisch 2001
+Hylidae;Pseudacris feriarum;25.5;27.5;NA;NA;NA;NA;1;Wright and Wright 1949;NA;NA;NA
+Hylidae;Pseudacris maculata;25.5;27;NA;NA;NA;NA;1;Wright and Wright 1949;NA;NA;NA
+Hylidae;Pseudacris nigrita;24.5;26;59;eggs per clutch;Prolonged;NA;1;Wright and Wright 1949;Stebbins 1951;Caldwell 1987;NA
+Hylidae;Pseudacris ocularis;13.5;14.8;NA;NA;Prolonged;NA;1;Wright and Wright 1949;Harper 1939;NA;NA
+Hylidae;Pseudacris ornata;30;32;30;eggs per clutch;Prolonged;NA;1;Wright and Wright 1949;Seyle and Trauth 1982;Wright and Wright 1949;NA
+Hylidae;Pseudacris regilla;32.5;37.2;807;eggs per clutch;Prolonged;Yes;1;Duellman and Dennis 2001;Wright and Wright 1949;Wells 1977;NA
+Hylidae;Pseudacris streckeri;33;39;450;eggs per clutch;Prolonged;NA;1;Wright and Wright 1949;Wells 1977;NA;NA
+Hylidae;Pseudacris triseriata;26.5;28.8;449;eggs per clutch;NA;NA;1;Wright and Wright 1949;Morrison and Hero 2003;NA;NA
+Hylidae;Pseudis platensis;50.4;57.5;1834;oocytes;Prolonged;NA;1;Prado 2004;Prado et al. 2005;NA;NA
+Hylidae;Ptychohyla euthysanota;35;38.2;NA;NA;NA;NA;0;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Ptychohyla leonhardschultzei;31.6;39.9;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Ptychohyla spinipollex;37.1;42.8;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Scarthyla goinorum;19;21.5;NA;NA;NA;NA;1;Rodriguez and Duellman 1994;NA;NA;NA
+Hylidae;Scinax acuminatus;42;43.1;879;actual clutches;Explosive;NA;1;Prado and Haddad 2003;Prado 2004;NA;NA
+Hylidae;Scinax albicans;29.57;46.94;631.2;actual clutches;Explosive;Yes;1;Nascimento 2003;Pers. Obs. C. P. A. Prado;NA;NA
+Hylidae;Scinax alter;27.67;29.73;431.25;actual clutches;Prolonged;NA;1;Hartmann 2004;Pers. Obs. C. F. B. Haddad;NA;NA
+Hylidae;Scinax angrensis;24.82;35.26;743;oocytes;Explosive;NA;1;Hartmann 2004;Pers. Obs. C. P. A. Prado;NA;NA
+Hylidae;Scinax argyreornatus;15.89;18.8;126.36;oocytes;Explosive;NA;1;Hartmann 2004;Pers. Obs. C. P. A. Prado;NA;NA
+Hylidae;Scinax berthae;19;25;NA;NA;NA;NA;1;Lutz 1973;NA;NA;NA
+Hylidae;Scinax boulengeri;41.6;49.4;650;eggs per clutch;Prolonged;NA;1;Duellman and Dennis 2001;Savage 2002;Bevier 1997;NA
+Hylidae;Scinax caldarum;27.51;30.23;NA;NA;Prolonged;NA;1;Pugliese 2002;Pers. Obs. C. F. B. Haddad;NA;NA
+Hylidae;Scinax catharinae;33;42.7;NA;NA;NA;NA;1;Lutz 1973;NA;NA;NA
+Hylidae;Scinax centralis;20.31;25.95;64;actual clutches;Explosive;Yes;1;Alcantara et al. 2007;Pers. Obs. C. P. A. Prado;NA;NA
+Hylidae;Scinax constrictus;26.09;31.93;NA;NA;Explosive;NA;1;Lima et al. 2004;Pers. Obs. C. P. A. Prado;NA;NA
+Hylidae;Scinax crospedospilus;30.54;31.14;NA;NA;Explosive;NA;1;Giasson 2008;Pers. Obs. C. P. A. Prado;NA;NA
+Hylidae;Scinax curicica;24.14;30.43;NA;NA;Explosive;NA;1;Pugliese 2002;Pers. Obs. C. P. A. Prado;NA;NA
+Hylidae;Scinax cuspidatus;30.45;32.5;NA;NA;Explosive;NA;1;Abrunhosa 2005;Pers. Obs. C. P. A. Prado;NA;NA
+Hylidae;Scinax duartei;29.41;32.11;370;actual clutches;Prolonged;NA;1;Pugliese 2002;Eterovick 1998;Pers. Obs. C. F. B. Haddad;NA
+Hylidae;Scinax elaeochrous;30.6;35;NA;NA;Explosive;Yes;1;Duellman and Dennis 2001;Savage 2002;Donnelly and Guyer 1994;NA
+Hylidae;Scinax eurydice;41.45;43.13;1699;actual clutches;Explosive;NA;1;Hartmann 2004;Pers. Obs. C. P. A. Prado;NA;NA
+Hylidae;Scinax faivovichi;17.2;19.9;NA;NA;Explosive;NA;1;Brasileiro et al. 2007;Pers. Obs. C. P. A. Prado;NA;NA
+Hylidae;Scinax flavoguttatus;26.94;43.21;NA;NA;Explosive;NA;1;Giasson 2008;Pers. Obs. C. P. A. Prado;NA;NA
+Hylidae;Scinax fuscomarginatus;22.21;23.17;346;actual clutches;Explosive;Yes;1;Toledo 2004;Prado et al. 2005;NA;NA
+Hylidae;Scinax fuscovarius;47.6;47.8;1957;actual clutches;Explosive;Yes;1;Haddad 1991;Uetanabaro et al. 2008;NA;NA
+Hylidae;Scinax garbei;35.4;42;550;eggs per clutch;Prolonged;NA;1;Crump 1974;NA;NA;NA
+Hylidae;Scinax hayii;39;47.15;1587.16;eggs per clutch;Explosive;Yes;1;Hartmann et al. 2010;Pers. Comm. L.O.M. Giasson;Haddad 1991;NA
+Hylidae;Scinax hiemalis;25.94;32.69;270;actual clutches;Prolonged;NA;1;Haddad 1991;Práger 2010;Pers. Obs. C. F. B. Haddad;NA
+Hylidae;Scinax nasicus;29.8;31.6;1584;eggs per clutch;Explosive;NA;1;Prado 2004;Prado et al. 2005;Perotti 1997;NA
+Hylidae;Scinax perereca;36.06;41.69;NA;NA;Prolonged;Yes;1;Pombal-Jr et al. 1995;Práger 2010;Pers. Obs. C. F. B. Haddad;NA
+Hylidae;Scinax rizibilis;26.65;32.51;NA;NA;Explosive;Yes;1;Bastos and Haddad 1999;Pombal-Jr and Haddad 2005;NA;NA
+Hylidae;Scinax rostratus;44.2;52.5;NA;NA;Explosive;NA;1;Sturaro et al. 2010;Pers. Obs. C. P. A. Prado;NA;NA
+Hylidae;Scinax ruber;32.6;39.1;591;eggs per clutch;Explosive;NA;1;Crump 1974, Duellman 1996, Duellman and Dennis 2001;Crump 1974;Bevier 1997;NA
+Hylidae;Scinax similis ;39;36.7;NA;NA;Explosive;NA;1;Eterovick and Sazima 2004;NA;NA;NA
+Hylidae;Scinax squalirostris;NA;NA;NA;NA;Prolonged;NA;1;Pers. Obs. C. F. B. Haddad;NA;NA;NA
+Hylidae;Scinax staufferi;24.1;26.6;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Scinax tripui;23.6;38.7;NA;NA;Explosive;NA;1;Lourenço et al. 2009;Pers. Obs. C. P. A. Prado;NA;NA
+Hylidae;Scinax x-signatus;35.06;40.18;NA;NA;Explosive;NA;1;Arzabe 1998;Práger 2010;NA;NA
+Hylidae;Smilisca baudinii;60.2;90;2225;eggs per clutch;Explosive;NA;1;Duellman and Dennis 2001;Duellman and Dennis 2001, Savage 2002;Donnelly and Guyer 1994;NA
+Hylidae;Smilisca cyanosticta;56;70;1147;eggs per clutch;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Smilisca fodiens;49.4;61.1;NA;NA;Explosive;Yes;1;Duellman and Dennis 2001;Pers. Obs. K. R. Zamudio;Wells 1977;NA
+Hylidae;Smilisca phaeota;65;78;1829;eggs per clutch;NA;NA;1;Savage 2002;NA;NA;NA
+Hylidae;Smilisca puma;38;46;NA;NA;NA;NA;1;Savage 2002;NA;NA;NA
+Hylidae;Sphaenorhynchus lacteus;36.5;42.5;NA;NA;NA;NA;1;Rodriguez and Duellman 1994;NA;NA;NA
+Hylidae;Tlalocohyla loquax;39.3;40.5;250;eggs per clutch;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Tlalocohyla picta;20.2;22.1;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Tlalocohyla smithii;24.3;27.7;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Trachycephalus coriaceus;58.5;61.5;1430;eggs per clutch;Explosive;NA;1;Rodriguez and Duellman 1994;Crump 1974;Gottsberger and Gruber 2004;NA
+Hylidae;Trachycephalus mesophaeus;63.31;68.54;2367;oocytes;Explosive;NA;1;Hartmann 2004;NA;NA;NA
+Hylidae;Trachycephalus nigromaculatus;83.56;91.07;NA;NA;NA;NA;1;Práger 2010;NA;NA;NA
+Hylidae;Trachycephalus resinifictrix;76;76;436;eggs per clutch;NA;Yes;1;Lutz 1973;Schiesari et al. 2003;NA;NA
+Hylidae;Trachycephalus typhonius;72.7;77.4;3981;oocytes;Explosive;NA;1;Prado 2004;Prado et al. 2005;NA;NA
+Hylidae;Triprion petasatus;54.6;70.7;NA;NA;NA;NA;1;Duellman and Dennis 2001;NA;NA;NA
+Hylidae;Xenohyla truncata;38;42;NA;NA;NA;NA;1;Lutz 1973;NA;NA;NA
+Hylodidae;Hylodes asper;29.64;41.38;81.4;oocytes;Prolonged;Yes;1;Hartmann 2004;Haddad and Giaretta 1999;NA;NA
+Hylodidae;Hylodes cf. ornatus;25.93;28.1;NA;NA;Prolonged;Yes;1;Haddad 1991;Pers. Obs. C. F. B. Haddad;NA;NA
+Hylodidae;Hylodes heyeri;36.2;40.6;132;actual clutches;Prolonged;Yes;1;Lingnau 2003;NA;NA;NA
+Hylodidae;Hylodes phyllodes;27.18;27.57;NA;NA;Prolonged;Yes;1;Hartmann 2004;NA;NA;NA
+Hyperoliidae;Afrixalus fornasini;33.5;35;80;eggs per clutch;NA;NA;0;Schiotz 1975;Wager 1965;NA;NA
+Hyperoliidae;Hyperolius lateralis;23;25.7;109;eggs per clutch;NA;NA;0;Schiotz 1975;Vonesh 2000;NA;NA
+Hyperoliidae;Hyperolius marmoratus;28.9;29.6;400;eggs per clutch;Prolonged;Yes;1;Stewart 1967;Channing 2001;Dyson et al. 1998;NA
+Hyperoliidae;Hyperolius nasutus;22.3;22.2;200;eggs per clutch;NA;Yes;1;Stewart 1967, Wager 1965;Wager 1965;NA;NA
+Hyperoliidae;Hyperolius puncticulatus;25;33.5;NA;NA;NA;NA;NA;Channing 2001;NA;NA;NA
+Leiopelmatidae;Ascaphus truei;47;49;47.8;eggs per clutch;NA;NA;1;Daugherty and Sheldon 1982;Karraker et al. 2006;NA;NA
+Leiopelmatidae;Leiopelma archeyi;31;37;NA;NA;NA;NA;1;Bell 1978;NA;NA;NA
+Leiopelmatidae;Leiopelma hochstetteri;38;47;NA;NA;NA;NA;1;Bell 1978;NA;NA;NA
+Leptodactylidae;Adenomera andreae;23.3;24.1;9;eggs per clutch;Prolonged;NA;0;Heyer 1973;Crump 1974;Lima et al. 2006;NA
+Leptodactylidae;Adenomera hylaedactyla;22.7;23.2;15;eggs per clutch;Prolonged;NA;0;Heyer 1973;Gottsberger and Gruber 2004;Lima et al. 2006;NA
+Leptodactylidae;Adenomera marmorata;20.17;22.02;NA;NA;Prolonged;NA;0;Hartmann 2004;Bertoluci and Rodrigues 2002;NA;NA
+Leptodactylidae;Edalorhina perezi;26.9;32.2;93;eggs per clutch;NA;NA;1;Duellman 1996;Crump 1974;NA;NA
+Leptodactylidae;Engystomops coloradorum;18.77;21.62;NA;NA;NA;NA;1;Nascimento 2003;NA;NA;NA
+Leptodactylidae;Engystomops petersi;24.27;31.01;NA;NA;NA;NA;1;Nascimento 2003;NA;NA;NA
+Leptodactylidae;Engystomops pustulatus ;20.24;21.49;NA;NA;NA;NA;1;Nascimento 2003;NA;NA;NA
+Leptodactylidae;Engystomops pustulosus;25.68;28.44;234.2;eggs per clutch;Prolonged;Yes;1;Nascimento 2003;Ryan 1983;NA;NA
+Leptodactylidae;Eupemphix nattereri;41.16;42.68;NA;NA;Explosive;NA;1;Nascimento 2003;Uetanabaro et al. 2008;NA;NA
+Leptodactylidae;Leptodactylus albilabris;35.2;40.7;138;eggs per clutch;NA;NA;1;Heyer 1978;Schwartz and Henderson 1991;NA;NA
+Leptodactylidae;Leptodactylus bufonius;46;47.7;425;eggs per clutch;Prolonged;NA;1;Faggioni 2011;NA;NA;NA
+Leptodactylidae;Leptodactylus chaquensis;71.3;71.3;4936;oocytes;Explosive;Yes;1;Prado 2004;Prado and Haddad 2003;NA;NA
+Leptodactylidae;Leptodactylus discodactylus;27.4;33.6;234;eggs per clutch;NA;NA;1;Crump 1974;NA;NA;NA
+Leptodactylidae;Leptodactylus furnarius;34.6;37.6;NA;NA;Prolonged;NA;1;Brasileiro et al. 2005;Pers. Obs. C. F. B. Haddad;NA;NA
+Leptodactylidae;Leptodactylus fuscus;42.6;43.6;214;actual clutches;Prolonged;NA;1;Prado 2004;NA;NA;NA
+Leptodactylidae;Leptodactylus gracilis;43;43;NA;NA;NA;NA;1;Heyer 1978;NA;NA;NA
+Leptodactylidae;Leptodactylus labyrinthicus;152.3;155;4099;actual clutches;Prolonged;Yes;1;Zina and Haddad 2005;Silva 2005;NA;NA
+Leptodactylidae;Leptodactylus laticeps;NA;113.4;4256;eggs per clutch;Prolonged;NA;1;Perotti 1997;NA;NA;NA
+Leptodactylidae;Leptodactylus latinasus;30.3;33.8;481;eggs per clutch;Prolonged;NA;1;Perotti 1997;Ponssa and Barrionuevo 2010;NA;NA
+Leptodactylidae;Leptodactylus leptodactyloides;40.9;47.5;NA;NA;NA;NA;1;Heyer 1994, Duellman 1996;NA;NA;NA
+Leptodactylidae;Leptodactylus melanonotus;37.5;45;1500;eggs per clutch;NA;Yes;1;Savage 2002;Duellman and Trueb 1994, Wells 1977;NA;NA
+Leptodactylidae;Leptodactylus mystaceus;45.1;54.8;281;eggs per clutch;Prolonged;NA;1;Heyer 1978;Crump 1974;NA;NA
+Leptodactylidae;Leptodactylus mystacinus;52.9;57.9;401;actual clutches;Prolonged;Yes;1;Oliveira-Filho and Giaretta 2008;Uetanabaro et al. 2008;NA;NA
+Leptodactylidae;Leptodactylus pentadactylus;141.5;151.5;1000;eggs per clutch;Prolonged;Yes;0;Savage 2002, Rivero 1961, Rodriguez and Duellman 1994, Duellman 1997;Savage 2002;Wells 1977, Duellman and Trueb 1994;Wells 2007
+Leptodactylidae;Leptodactylus podicipinus;35.2;39.5;2102;actual clutches;Prolonged;Yes;1;Prado 2004;Martins 1996;NA;NA
+Leptodactylidae;Leptodactylus validus;37.8;44.3;NA;NA;NA;NA;1;Heyer 1994;NA;NA;NA
+Leptodactylidae;Leptodactylus wagneri;50;66.9;1740;eggs per clutch;NA;NA;1;Heyer 1994, Crump 1974;Crump 1974;NA;NA
+Leptodactylidae;Paratelmatobius cf. poecilogaster;18.82;20.91;NA;NA;NA;NA;1;Giasson 2008;NA;NA;NA
+Leptodactylidae;Physalaemus aguirrei;25.34;25.98;NA;NA;NA;NA;1;Nascimento 2003;NA;NA;NA
+Leptodactylidae;Physalaemus albonotatus;24.1;23.5;719;actual clutches;Prolonged;NA;1;Prado 2004;NA;NA;NA
+Leptodactylidae;Physalaemus barrioi;27.01;28.55;NA;NA;Prolonged;NA;1;Nascimento 2003;Pers. Obs. C. F. B. Haddad;NA;NA
+Leptodactylidae;Physalaemus biligonigerus;36.2;38.7;9574;eggs per clutch;Explosive;Yes;1;Nascimento 2003;Perotti 1997;Pers. Obs. C. P. A. Prado;Pers. Comm. G. P. Faggioni
+Leptodactylidae;Physalaemus bokermanni;15.9;19.46;55;actual clutches;NA;NA;1;Nascimento 2003;NA;NA;NA
+Leptodactylidae;Physalaemus centralis;36.3;34.53;1842;actual clutches;Prolonged;Yes;1;Nascimento 2003;Brasileiro 1998;NA;NA
+Leptodactylidae;Physalaemus cicada;25.2;25.38;NA;NA;NA;NA;1;Nascimento 2003;NA;NA;NA
+Leptodactylidae;Physalaemus crombiei;20.99;18.2;158;eggs per clutch;Prolonged;NA;1;Nascimento 2003;Pupin et al. 2010;NA;NA
+Leptodactylidae;Physalaemus cuqui;29.47;30.01;NA;NA;NA;NA;1;Nascimento 2003;NA;NA;NA
+Leptodactylidae;Physalaemus cuvieri;27.97;29.18;558.5;actual clutches;Prolonged;Yes;1;Nascimento 2003;Haddad 1991;Prado 2004;NA
+Leptodactylidae;Physalaemus evangelistai;21.58;21.71;NA;NA;NA;NA;1;Nascimento 2003;NA;NA;NA
+Leptodactylidae;Physalaemus fernandezae;20.15;20.52;NA;NA;NA;NA;1;Nascimento 2003;NA;NA;NA
+Leptodactylidae;Physalaemus gracilis;26.28;27.93;311;eggs per clutch;Prolonged;NA;1;Nascimento 2003;Camargo et al. 2005;Pupin et al. 2010;NA
+Leptodactylidae;Physalaemus henselii;18.25;20.92;296.9;eggs per clutch;NA;NA;1;Nascimento 2003;Pupin et al. 2010;NA;NA
+Leptodactylidae;Physalaemus kroyeri;27.51;27.32;NA;NA;NA;NA;1;Nascimento 2003;NA;NA;NA
+Leptodactylidae;Physalaemus lisei;23.53;28.25;NA;NA;NA;NA;1;Nascimento 2003;NA;NA;NA
+Leptodactylidae;Physalaemus maculiventris;18.82;21.91;NA;NA;NA;NA;1;Nascimento 2003;NA;NA;NA
+Leptodactylidae;Physalaemus moreirae;23.74;21.14;NA;NA;NA;NA;1;Nascimento 2003;NA;NA;NA
+Leptodactylidae;Physalaemus obtectus;23.52;24.93;NA;NA;NA;NA;1;Nascimento 2003;NA;NA;NA
+Leptodactylidae;Physalaemus olfersii;31.19;32.72;959;actual clutches;Prolonged;NA;1;Nascimento 2003;Bertoluci and Rodrigues 2002;NA;NA
+Leptodactylidae;Physalaemus riograndensis;16.81;16.91;NA;NA;NA;NA;1;Nascimento 2003;NA;NA;NA
+Leptodactylidae;Physalaemus rupestris;17.05;17.75;34;actual clutches;NA;NA;1;Nascimento 2003;NA;NA;NA
+Leptodactylidae;Physalaemus signifer;23.77;26.72;273;eggs per clutch;NA;NA;1;Nascimento 2003;Pupin et al. 2010;NA;NA
+Leptodactylidae;Physalaemus spiniger;18.99;18.33;29.7;eggs per clutch;NA;NA;1;Nascimento 2003;Pupin et al. 2010;NA;NA
+Leptodactylidae;Pleurodema brachyops;31.5;34.5;NA;NA;NA;NA;1;Rivero 1961;NA;NA;NA
+Leptodactylidae;Pleurodema bufoninum;45;56;NA;NA;NA;NA;1;Duellman and Veloso 1977;NA;NA;NA
+Leptodactylidae;Pleurodema thaul;41.7;49.7;NA;NA;NA;NA;1;Duellman and Veloso 1977;NA;NA;NA
+Leptodactylidae;Pseudopaludicola canga;15.2;18.2;NA;NA;NA;NA;1;Giaretta and Kokubum 2003;NA;NA;NA
+Leptodactylidae;Pseudopaludicola falcipes;14.8;16.3;NA;NA;NA;NA;1;Haddad and Cardoso 1987;NA;NA;NA
+Leptodactylidae;Pseudopaludicola mystacalis;17.3;18.9;NA;NA;Prolonged;NA;1;Haddad and Cardoso 1987;NA;NA;NA
+Leptodactylidae;Pseudopaludicola saltica;15.4;17;NA;NA;Explosive;NA;1;Haddad and Cardoso 1987;NA;NA;NA
+Leptodactylidae;Scythrophrys sawayae;15.31;16.71;33;actual clutches;Explosive;NA;1;Garcia 1996;NA;NA;NA
+Mantellidae;Aglyptodactylus laticeps;43.5;59;3636;eggs per clutch;Explosive;NA;1;Glos 2003;NA;NA;NA
+Mantellidae;Aglyptodactylus madagascariensis;41;53;1600;eggs per clutch;Explosive;NA;1;Glaw and Vences 2007;NA;NA;NA
+Mantellidae;Aglyptodactylus securifer;35.8;42.9;1736;eggs per clutch;Explosive;NA;1;Glos 2003;NA;NA;NA
+Mantellidae;Boophis doulioti;38.5;48.3;3445;eggs per clutch;Prolonged;NA;1;Glos 2003;NA;NA;NA
+Mantellidae;Boophis goudotii;50;80;1000;eggs per clutch;NA;NA;1;Blommers-Schlosser 1979;NA;NA;NA
+Mantellidae;Boophis luteus;38.5;54;200;eggs per clutch;NA;NA;1;Blommers-Schlosser 1979;Glaw and Vences 2007;NA;NA
+Mantellidae;Boophis rappiodes;24;32;260;eggs per clutch;NA;NA;1;Blommers-Schlosser 1979;NA;NA;NA
+Mantellidae;Boophis tephraeomystax;38.5;45.5;NA;NA;NA;NA;1;Blommers-Schlosser 1979;NA;NA;NA
+Mantellidae;Boophis xerophilus;36;41.3;1738;eggs per clutch;Prolonged;NA;1;Glos 2003;NA;NA;NA
+Mantellidae;Gephyromantis asper;30.9;29.7;NA;NA;NA;NA;NA;Vences and Glaw 2001;NA;NA;NA
+Mantellidae;Gephyromantis horridus;27;35;NA;NA;NA;NA;NA;Vences et al. 2002;NA;NA;NA
+Mantellidae;Gephyromantis luteus;39;44.1;NA;NA;NA;NA;0;Vences and Glaw 2001;NA;NA;NA
+Mantellidae;Gephyromantis malagasius;22;24.5;NA;NA;NA;NA;NA;Vences et al. 2002;NA;NA;NA
+Mantellidae;Gephyromantis plicifer;45;46.9;NA;NA;NA;NA;NA;Vences et al. 1998;NA;NA;NA
+Mantellidae;Gephyromantis striatus;23;25.5;NA;NA;NA;NA;NA;Vences et al. 2002;NA;NA;NA
+Mantellidae;Mantella aurantiaca;22;30;NA;NA;NA;NA;0;Glaw and Vences 2007;NA;NA;NA
+Mantellidae;Mantella laevigata;26.8;28.1;NA;NA;NA;Yes;0;Vences et al. 1998;NA;NA;NA
+Megophryidae;Brachytarsophrys feae;95.6;101.2;1000;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Megophryidae;Leptobrachium ailaonicum;75.6;72.9;245;eggs per clutch;NA;NA;1;Ye et al. 1993;NA;NA;NA
+Megophryidae;Leptobrachium boringii;76.7;66.8;298;eggs per clutch;NA;NA;1;Ye et al. 1993;NA;NA;NA
+Megophryidae;Leptobrachium chapaense;54.4;71.6;NA;NA;NA;NA;1;Lathrop et al. 1998;NA;NA;NA
+Megophryidae;Leptobrachium hasseltii;55.7;74.3;NA;NA;NA;NA;1;Inger 1966;NA;NA;NA
+Megophryidae;Leptobrachium leishanense;78.7;69.9;295;eggs per clutch;NA;NA;1;Ye et al. 1993;NA;NA;NA
+Megophryidae;Leptobrachium liui;86.7;70.3;334;eggs per clutch;NA;NA;1;Ye et al. 1993;NA;NA;NA
+Megophryidae;Leptobrachium montanum;52.1;60.2;NA;NA;NA;NA;1;Ohler 2004;NA;NA;NA
+Megophryidae;Leptobrachium mouhoti;58.3;70.2;NA;NA;NA;NA;1;Stuart 2006;NA;NA;NA
+Megophryidae;Leptobrachium promustache;56.7;61.1;NA;NA;NA;NA;1;Rao et al. 2006;NA;NA;NA
+Megophryidae;Leptolalax liui;26.3;25.6;NA;NA;NA;NA;1;Fei et al. 1999;NA;NA;NA
+Megophryidae;Leptolalax pelodytoides;26;29.2;144;eggs per clutch;NA;NA;1;Huang et al. 1990;Pope 1931;NA;NA
+Megophryidae;Ophryophryne microstoma;30.6;47.3;NA;NA;NA;NA;1;Ye et al. 1993;NA;NA;NA
+Megophryidae;Oreolalax chuanbeiensis;53;56.7;170;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Megophryidae;Oreolalax jingdongensis;54.3;52.6;170;eggs per clutch;Explosive;NA;1;Fei et al. 1999;NA;NA;NA
+Megophryidae;Oreolalax liangbeiensis;51.6;60;350;eggs per clutch;NA;NA;1;Ye et al. 1993;Fei et al. 1999;NA;NA
+Megophryidae;Oreolalax lichuanensis;58.7;59.1;215;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Megophryidae;Oreolalax major;64.6;67.5;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Megophryidae;Oreolalax omeimontis;53.7;54.1;183;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Megophryidae;Oreolalax pingii;45.2;45.6;175;eggs per clutch;NA;NA;1;Ye et al. 1993;Fei et al. 1999, Ye et al. 1993;NA;NA
+Megophryidae;Oreolalax popei;65.2;61.9;350;eggs per clutch;NA;NA;1;Ye et al. 1993;NA;NA;NA
+Megophryidae;Oreolalax rugosus;47.1;49.7;NA;NA;NA;NA;1;Ye et al. 1993;NA;NA;NA
+Megophryidae;Oreolalax schmidti;43.1;51;120;eggs per clutch;NA;Yes;1;Fei et al. 1999;Liu 1950;NA;NA
+Megophryidae;Oreolalax xiangchengensis;48.6;57.4;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Megophryidae;Scutiger boulengeri;47.4;53.8;380;eggs per clutch;NA;NA;1;Hu et al. 1987, Ye et al. 1993;Ye et al. 1993;NA;NA
+Megophryidae;Scutiger chintingensis;42.2;50.6;150;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Megophryidae;Scutiger glandulatus;67;66.5;NA;NA;NA;NA;1;Yang 1991;NA;NA;NA
+Megophryidae;Scutiger mammatus;70.5;69.2;606;eggs per clutch;NA;NA;1;Ye et al. 1993;NA;NA;NA
+Megophryidae;Scutiger muliensis;73.4;63.8;200;eggs per clutch;NA;NA;1;Fei et al. 1999;NA;NA;NA
+Megophryidae;Scutiger tuberculatus;72;71.5;NA;NA;NA;NA;1;Ye et al. 1993;NA;NA;NA
+Megophryidae;Xenophrys minor;36.8;43.4;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Megophryidae;Xenophrys omeimontis;55.2;64.1;357;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Megophryidae;Xenophrys shapingensis;68;94;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Megophryidae;Xenophrys spinata;50;54.5;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Microhylidae;Chaperina fusca;19.2;22.4;NA;NA;NA;NA;1;Inger 1966;NA;NA;NA
+Microhylidae;Chiasmocleis albopunctata;25.3;29.1;NA;NA;Explosive;NA;1;Brasileiro et al. 2005;Gottsberger and Gruber 2004;NA;NA
+Microhylidae;Chiasmocleis carvalhoi;18.07;22.77;236.83;oocytes;Explosive;NA;1;Hartmann 2004;NA;NA;NA
+Microhylidae;Chiasmocleis leucosticta;20;23.6;203;eggs per clutch;Explosive;NA;1;Cruz et al. 1997;Haddad and Hödl 1997;NA;NA
+Microhylidae;Chiasmocleis mehelyi;20.8;23.8;217;oocytes;Explosive;NA;1;Prado 2004;Prado et al. 2005;NA;NA
+Microhylidae;Dermatonotus muelleri;52.84;74.15;10991;eggs per clutch;Explosive;NA;1;Perotti 1997;Marangoni et al. 2009;NA;NA
+Microhylidae;Elachistocleis bicolor;22.8;26.1;478;eggs per clutch;Explosive;NA;1;Prado and Haddad 2005;Pers. Obs. C. P. A. Prado;NA;NA
+Microhylidae;Elachistocleis cesarii;28.44;35.84;660;eggs per clutch;Explosive;NA;1;Galharde 2012;NA;NA;NA
+Microhylidae;Hylophorbus rufescens;30;40.5;13;eggs per clutch;NA;NA;0;Zweifel 1956;Bickford 2004;NA;NA
+Microhylidae;Kalophrynus pleurostigma;40.4;44.8;4000;eggs per clutch;NA;NA;1;Inger 1966;Pope 1931;NA;NA
+Microhylidae;Kaloula pulchra;60.9;63.6;4126;eggs per clutch;Explosive;NA;1;Inger 1966;Diesmos et al. 2006;NA;NA
+Microhylidae;Metaphrynella sundana;20.9;23.4;NA;NA;NA;Yes;1;Inger 1966;Lardner and Lakim 2004;NA;NA
+Microhylidae;Microhyla butleri;23.2;23;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Microhylidae;Microhyla heymonsi;19.8;22.2;157;eggs per clutch;NA;NA;1;Yang 1991;Chen 1991, Huang et al. 1990;NA;NA
+Microhylidae;Microhyla ornata;23.2;23.9;225;eggs per clutch;NA;NA;NA;Yang 1991, Ye et al. 1993, Pope 1931;Chen 1991, Huang et al. 1990;NA;NA
+Microhylidae;Microhyla pulchra;30;33.1;1256;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Microhylidae;Myersiella microps;25.75;31.95;25.83;oocytes;Explosive;NA;0;Hartmann 2004;NA;NA;NA
+Microhylidae;Scaphiophryne gottlebei;28.91;30.85;182;eggs per clutch;Explosive;NA;1;Rosa et al. 2011;NA;NA;NA
+Microhylidae;Stereocyclops incrassatus;51.4;57.8;NA;NA;Explosive;NA;1;Albuquerque 1976;Abrunhosa et al. 2006;NA;NA
+Myobatrachidae;Adelotus brevis;35.53;32.75;270;eggs per clutch;Prolonged;Yes;1;Katsikaros and Shine 1997;Tyler 1998;Barker et al. 1995;NA
+Myobatrachidae;Crinia signifera;18.8;21.7;150;eggs per clutch;NA;NA;1;Parker 1940;Moore 1961;NA;NA
+Myobatrachidae;Limnodynastes convexiusculus;44;51;NA;NA;NA;NA;1;Parker 1940;NA;NA;NA
+Myobatrachidae;Limnodynastes peronii;51.7;46.6;850;eggs per clutch;Prolonged;Yes;1;Schauble 2004;Barker et al. 1995;Wells 1977;NA
+Myobatrachidae;Limnodynastes tasmaniensis;33.2;34.9;250;eggs per clutch;NA;NA;1;Parker 1940, Schaube 2004;Parker 1940;NA;NA
+Myobatrachidae;Limnodynastes terraereginae;69;76;NA;NA;NA;NA;1;Parker 1940;NA;NA;NA
+Myobatrachidae;Metacrinia nichollsi;23;25;27;eggs per clutch;NA;NA;0;Parker 1940;NA;NA;NA
+Myobatrachidae;Mixophyes fasciolatus;63;97;970;eggs per clutch;NA;NA;1;Parker 1940, Morrison and Hero 2003;Morrison and Hero 2003;NA;NA
+Myobatrachidae;Myobatrachus gouldii;44;57;40;eggs per clutch;NA;NA;0;Parker 1940;Barker et al. 1995;NA;NA
+Myobatrachidae;Paracrinia haswelli;26;32;NA;NA;NA;NA;1;Parker 1940;NA;NA;NA
+Myobatrachidae;Pseudophryne bibronii;26;27;82;eggs per clutch;NA;Yes;0;Parker 1940;Moore 1961, Parker 1940, Tyler 1978;Duellman and Trueb 1994;NA
+Odontophrynidae;Macrogenioglottus alipioi;82.05;108.48;NA;NA;Explosive;NA;1;Hartmann 2004;NA;NA;NA
+Odontophrynidae;Odontophrynus americanus;46.01;51;NA;NA;Explosive;NA;1;Giaretta 1994;Uetanabaro et al. 2008;NA;NA
+Odontophrynidae;Odontophrynus lavillai;NA;72.3;14720;eggs per clutch;Explosive;NA;1;Perotti 1997;NA;NA;NA
+Odontophrynidae;Proceratophrys appendiculata;49.49;63.18;841.7;eggs per clutch;NA;NA;1;Giasson 2008;Boquimpani-Freitas et al. 2002;NA;NA
+Odontophrynidae;Proceratophrys boiei;48.18;65.81;1296;eggs per clutch;Explosive;NA;1;Giasson 2008;Canelas and Bertoluci 2007;Giaretta and Facure 2008;NA
+Pelobatidae;Pelobates fuscus;41.1;42.6;1740;eggs per clutch;Explosive;Yes;1;Kuzmin 1999;Wells 1977;NA;NA
+Pelodytidae;Pelodytes caucasicus;47.16;45.79;NA;NA;Prolonged;Yes;1;Erismis et al. 2009;Kuzmin 1999;NA;NA
+Petropedetidae;Arthroleptides yakusini;73;56;200;eggs per clutch;NA;NA;1;Channing 2001;NA;NA;NA
+Phrynobatrachidae;Phrynobatrachus natalensis;27.5;28.5;650;eggs per clutch;NA;NA;1;Stewart 1967;Wager 1965;NA;NA
+Pipidae;Hymenochirus boettgeri;NA;35;649;eggs per clutch;NA;Yes;1;Rabb and Rabb 1963;Rabb and Rabb 1962;NA;NA
+Pipidae;Pipa carvalhoi;45.7;51.4;140;eggs per clutch;NA;Yes;0;Trueb 1986;Weygoldt 1976;Duellman and Trueb 1994;NA
+Pipidae;Pipa parva;31.7;33.6;NA;NA;NA;Yes;0;Trueb 1986;Duellman and Trueb 1994;NA;NA
+Pipidae;Pipa pipa;128.7;139.4;65;eggs per clutch;NA;Yes;0;Trueb 1986;Bartlett and Bartlett 2003;Rabb and Rabb 1963;NA
+Pipidae;Xenopus muelleri;58;72;NA;NA;NA;NA;1;Stewart 1967;NA;NA;NA
+Ptychadenidae;Ptychadena anchietae;51;62;NA;NA;NA;NA;1;Harper et al. 2010;NA;NA;NA
+Ptychadenidae;Ptychadena mascareniensis;50;60;1079;eggs per clutch;Prolonged;Yes;1;Channing 2001;Barbault 1984;Mertens 1938;Akef and Schneider 1995
+Pyxicephalidae;Natalobatrachus bonebergi;25;37;85;eggs per clutch;NA;NA;0;Minter et al. 2004;NA;NA;NA
+Pyxicephalidae;Pyxicephalus adspersus;203;115;4000;eggs per clutch;Explosive;Yes;1;Cook et al. 2001;Wager 1965;Wells 1977;NA
+Ranidae;Amolops bellulus;47.9;63.6;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Amolops chunganensis;39.6;48.1;436;eggs per clutch;NA;Yes;1;Ye et al. 1993;Inger and Bacon 1968;Liu 1950;NA
+Ranidae;Amolops daiyunensis;49.4;54.5;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Amolops granulosus;39.8;51.9;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Amolops hainanensis;80.4;72.9;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Amolops hongkongensis;39;40;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Amolops lifanensis;54.2;71.1;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Amolops loloensis;58.3;74.2;153;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Amolops mantzorum;52.2;65.8;NA;NA;NA;NA;1;Yang 1991;NA;NA;NA
+Ranidae;Amolops ricketti;55.9;60.7;990;eggs per clutch;NA;NA;1;Pope 1931;NA;NA;NA
+Ranidae;Amolops torrentis;29.7;37.4;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Amolops viridimaculatus;74.8;98;NA;NA;NA;NA;1;Yang 1991;NA;NA;NA
+Ranidae;Amolops wuyiensis;41.8;48.2;600;eggs per clutch;NA;NA;1;Chen 1991;Huang et al. 1990;NA;NA
+Ranidae;Babina adenopleura;50.2;52.2;352;eggs per clutch;Prolonged;NA;1;Yang 1991;Chen 1991, Huang et al. 1990, Liu 1950, Yang 1991;Liu 1950;NA
+Ranidae;Babina chapaensis;81.1;92.2;NA;NA;NA;NA;1;Yang 1991;NA;NA;NA
+Ranidae;Babina holsti;118.7;103;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Babina okinavana;40.2;43.5;NA;NA;NA;NA;1;Inger 1947;NA;NA;NA
+Ranidae;Babina pleuraden;51;49.8;606;eggs per clutch;NA;NA;1;Yang 1991;NA;NA;NA
+Ranidae;Glandirana emeljanovi;46;55.4;1130;eggs per clutch;NA;NA;1;Ye et al. 1993;NA;NA;NA
+Ranidae;Glandirana minima;27;28.6;274;eggs per clutch;NA;NA;1;Ye et al. 1993;NA;NA;NA
+Ranidae;Glandirana rugosa;42.8;44.7;1098;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Glandirana tientaiensis;30.7;31.3;1350;eggs per clutch;NA;NA;1;Chen 1991;NA;NA;NA
+Ranidae;Hylarana baramica;42.8;57.3;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Hylarana erythraea;39.7;65.7;NA;NA;NA;NA;1;Inger 1966;NA;NA;NA
+Ranidae;Hylarana guentheri;69.8;74.9;3000;eggs per clutch;NA;NA;1;Pope 1931;Huang et al. 1990, Pope 1931;NA;NA
+Ranidae;Hylarana latouchii;37.5;47;1126;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Hylarana macrodactyla;28;39.8;300;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Hylarana nigrovittata;42.7;47.2;330;eggs per clutch;NA;NA;1;Yang 1991;NA;NA;NA
+Ranidae;Hylarana signata;39.4;56.2;NA;NA;NA;NA;1;Inger 1966;NA;NA;NA
+Ranidae;Hylarana taipehensis;29;39;189;eggs per clutch;NA;NA;1;Yang 1991;NA;NA;NA
+Ranidae;Lithobates areolatus;NA;NA;7000;eggs per clutch;Explosive;Yes;1;Wright and Wright 1949;Wells 1977;NA;NA
+Ranidae;Lithobates capito;NA;NA;7000;eggs per clutch;Prolonged;NA;1;Goin and Netting 1940;Wells 1977;NA;NA
+Ranidae;Lithobates catesbeianus;119.3;119.3;18171;eggs per clutch;Prolonged;Yes;1;Hulse et al. 2001;Degenhardt et al. 1996, Hulse et al. 2001, Smith 1950, Ye et al. 1993;Wells 1977;Gibbs and Breisch 2001
+Ranidae;Lithobates clamitans;72;75;5500;eggs per clutch;Prolonged;Yes;1;Wright and Wright 1949;Nussbaum et al. 1983,Wright and Wright 1949;Wells 1977;NA
+Ranidae;Lithobates forreri;NA;NA;NA;NA;Prolonged;NA;1;Wells 1977;NA;NA;NA
+Ranidae;Lithobates palmipes;92.3;116.8;2860;eggs per clutch;Prolonged;NA;1;Crump 1974;NA;NA;NA
+Ranidae;Lithobates palustris;53;66.4;2500;eggs per clutch;Prolonged;Yes;1;Wright and Wright 1949;Wells 1977;Cook et al. 2011;NA
+Ranidae;Lithobates pipiens;69.8;78.6;3045;eggs per clutch;Explosive;Yes;1;Hulse et al. 2001;Degenhardt et al. 1996;Wells 1977;NA
+Ranidae;Lithobates sevosus;73.6;82.3;6600;eggs per clutch;Prolonged;NA;1;Goin and Netting 1940;Volpe 1957, Dundee and Rossman 1989, Richter and Seigel 1998;Richter et al. 2003;NA
+Ranidae;Lithobates sphenocephalus;55.8;63.7;1500;eggs per clutch;NA;NA;1;Hulse et al. 2001;NA;NA;NA
+Ranidae;Lithobates sylvaticus;53.6;61.1;781;eggs per clutch;Explosive;Yes;1;Hulse et al. 2001;Morrison and Hero 2003;Wells 1977;Petranka and Thomas 1995
+Ranidae;Meristogenys jerboa;36.4;67.1;2462;eggs per clutch;NA;NA;1;Inger 1966;Inger and Bacon 1968;NA;NA
+Ranidae;Meristogenys kinabaluensis;63.6;88;NA;NA;NA;NA;1;Inger 1966;NA;NA;NA
+Ranidae;Odorrana andersonii;63.5;77.3;NA;NA;NA;NA;1;Pope 1931;NA;NA;NA
+Ranidae;Odorrana banaorum;48.5;91;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Odorrana grahami;74.3;93.3;2446;eggs per clutch;NA;NA;1;Yang 1991;NA;NA;NA
+Ranidae;Odorrana hosii;53.8;92.4;2320;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Odorrana jingdongensis;74.8;97;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Odorrana junlianensis;76.1;97.5;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Odorrana livida;56.5;100.4;1433;eggs per clutch;NA;NA;1;Chen 1991;Chen 1991, Huang et al. 1990;NA;NA
+Ranidae;Odorrana margaretae;81.4;103.4;705;eggs per clutch;NA;NA;1;Bain et al. 2003;NA;NA;NA
+Ranidae;Odorrana schmackeri;40.8;76.8;1549;eggs per clutch;NA;NA;1;Ye et al. 1993;Chen 1991, Huang et al. 1990;NA;NA
+Ranidae;Odorrana swinhoana;60.3;73.5;45;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Odorrana tiannanensis;52;100;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Odorrana tormota;33.8;59.5;538;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Odorrana versabilis;46.4;62.3;101;eggs per clutch;NA;NA;1;Chen 1991;NA;NA;NA
+Ranidae;Pelophylax fukienensis;40.2;55.5;1011;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Pelophylax nigromaculatus;64.4;70.4;3250;eggs per clutch;Explosive;NA;1;Chen 1991;Chen 1991, Huang et al. 1990, Ye et al. 1993;Wells 1977;NA
+Ranidae;Pelophylax plancyi;39.2;56.4;945;eggs per clutch;Explosive;Yes;1;Fei et al. 2009;Wells 1977;NA;NA
+Ranidae;Pseudorana weiningensis;35;43;313;eggs per clutch;NA;Yes;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Rana amurensis;41;52.8;2045;eggs per clutch;NA;NA;1;Pope 1931;Kuzmin 1999;NA;NA
+Ranidae;Rana arvalis;NA;NA;1599;eggs per clutch;Explosive;Yes;1;Inger and Bacon 1968, Kuzmin 1999;Wells 1977;NA;NA
+Ranidae;Rana asiatica;53.4;53.8;1150;eggs per clutch;NA;NA;1;Pope 1931;Kuzmin 1999;NA;NA
+Ranidae;Rana aurora;NA;NA;800;eggs per clutch;Explosive;Yes;1;Nussbaum et al. 1983;Pearl et al. 2005;NA;NA
+Ranidae;Rana boylii;56;73;980;eggs per clutch;NA;NA;1;Nussbaum et al. 1983;Nussbaum et al. 1983, Stebbins 1951, Wright and Wright 1949;NA;NA
+Ranidae;Rana chaochiaoensis;53.6;52.9;1500;eggs per clutch;NA;NA;1;Yang 1991;NA;NA;NA
+Ranidae;Rana chensinensis;48;41.9;1400;eggs per clutch;Explosive;NA;1;Okada 1966;Inger and Bacon 1968, Ye et al. 1993;Lu et al. 2009;NA
+Ranidae;Rana dalmatina;45.2;56.7;1068;eggs per clutch;Explosive;Yes;1;Lode et al. 2005;Kuzmin 1999;Wells 1977;NA
+Ranidae;Rana huanrenensis;42.8;45.3;450;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Rana japonica;48.1;53.7;1500;eggs per clutch;Explosive;Yes;1;Pope 1931;Chen 1991;Wells 1977;NA
+Ranidae;Rana johnsi;43.1;46.5;1500;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Rana kukunoris;56.3;61.9;1350;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Rana kunyuensis;40.9;44.8;918;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Rana longicrus;41.5;47.9;400;eggs per clutch;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Rana luteiventris;63.3;72.1;2400;eggs per clutch;Explosive;NA;1;Greene and Funk 2009;Maxell et al. 2003;NA;NA
+Ranidae;Rana omeimontis;60.1;66.7;1550;eggs per clutch;NA;NA;1;Ye et al. 1993;NA;NA;NA
+Ranidae;Rana ornativentris;49.3;58.5;12000;eggs per clutch;NA;NA;1;Okada 1966;NA;NA;NA
+Ranidae;Rana pretiosa;56;69.8;997;eggs per clutch;Explosive;Yes;1;Fei et al. 2009;Pearl et al. 2005;NA;NA
+Ranidae;Rana shuchinae;39.9;44.5;180;eggs per clutch;NA;NA;1;Yang 1991;NA;NA;NA
+Ranidae;Rana tagoi;39;41.3;NA;NA;NA;NA;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Rana temporaria;64.2;61.2;2247;eggs per clutch;Explosive;Yes;1;Yang 1991;Morrison and Hero 2003;Wells 1977;NA
+Ranidae;Rana tsushimensis;41.1;49.8;450;eggs per clutch;NA;NA;1;Okada 1966;Maeda and Matsui 1990;NA;NA
+Ranidae;Rana zhenhaiensis;46.4;48.1;883;eggs per clutch;NA;Yes;1;Fei et al. 2009;NA;NA;NA
+Ranidae;Staurois latopalmatus;45.3;61.4;NA;NA;NA;NA;1;Inger 1966;NA;NA;NA
+Ranidae;Staurois natator;36;45.8;NA;NA;NA;NA;1;Inger 1966;NA;NA;NA
+Rhacophoridae;Buergeria buergeri;40.05;58.9;386.5;eggs per clutch;Prolonged;NA;NA;Ueda et al. 1998;Fukuyama and Kusano 1992;NA;NA
+Rhacophoridae;Buergeria japonica;25.5;31.1;600;eggs per clutch;Prolonged;NA;1;Huang et al. 2001;Okada 1966;NA;NA
+Rhacophoridae;Buergeria oxycephala;36.5;64.5;NA;NA;NA;NA;NA;Ye et al. 1993, Pope 1931;NA;NA;NA
+Rhacophoridae;Buergeria robusta;49.1;67.1;NA;NA;NA;NA;NA;Huang et al. 2001;NA;NA;NA
+Rhacophoridae;Chiromantis doriae;21.6;27.4;180;eggs per clutch;NA;NA;0;Pope 1931;NA;NA;NA
+Rhacophoridae;Chiromantis xerampelina;63;76;192;eggs per clutch;Explosive;NA;0;Jennions et al. 1992;NA;NA;NA
+Rhacophoridae;Feihyla vittata;23.6;25.7;217;eggs per clutch;NA;NA;1;Yang 1991;Hu et al. 1987;NA;NA
+Rhacophoridae;Gracixalus gracilipes;22;29.5;NA;NA;NA;NA;0;Yang 1991;NA;NA;NA
+Rhacophoridae;Gracixalus quangi ;21.4;26.8;11;eggs per clutch;NA;NA;0;Rowley et al. 2011;NA;NA;NA
+Rhacophoridae;Kurixalus eiffingeri;32.8;38;79;eggs per clutch;Prolonged;NA;0;Fei et al. 2009;NA;NA;NA
+Rhacophoridae;Philautus aurifasciatus;23.8;31.6;13;eggs per clutch;NA;NA;0;Inger 1966, Dring 1979;Alcala 1986;NA;NA
+Rhacophoridae;Polypedates leucomystax;43.5;62.7;337;eggs per clutch;Prolonged;NA;0;Inger 1966;Yang 1991;McKay 2006;NA
+Rhacophoridae;Polypedates megacephalus;49;67.1;362;eggs per clutch;NA;NA;0;Fei et al. 2009;NA;NA;NA
+Rhacophoridae;Polypedates mutus;53.4;66.7;NA;NA;NA;NA;0;Yang 1991;NA;NA;NA
+Rhacophoridae;Rhacophorus arboreus;60.3;81.4;288;eggs per clutch;Explosive;NA;0;Okada 1966;Okada 1966, Pope 1931;Kasuya et al. 1996;NA
+Rhacophoridae;Rhacophorus dennysi;87.5;100.2;2625;eggs per clutch;NA;NA;0;Ye et al. 1993, Chen 1991, Huang et al. 1990, Pope 1931;Ye et al. 1993;NA;NA
+Rhacophoridae;Rhacophorus dugritei;45;56.7;400;eggs per clutch;NA;NA;0;Fei et al. 2009;NA;NA;NA
+Rhacophoridae;Rhacophorus feae;111;92.3;NA;NA;NA;NA;0;Fei et al. 2009;NA;NA;NA
+Rhacophoridae;Rhacophorus kio;67.9;81.6;NA;NA;NA;Yes;0;Fei et al. 2009;NA;NA;NA
+Rhacophoridae;Rhacophorus moltrechti;42.1;49.8;180;eggs per clutch;Prolonged;NA;0;Fei et al. 2009;NA;NA;NA
+Rhacophoridae;Rhacophorus nigropunctatus;37.5;44.5;NA;NA;NA;NA;NA;Fei et al. 2009;NA;NA;NA
+Rhacophoridae;Rhacophorus omeimontis;64.7;76.7;650;eggs per clutch;Explosive;NA;0;Liao and Lu 2011;Liao and Lu 2010;NA;NA
+Rhacophoridae;Rhacophorus reinwardtii;68;82.7;68;eggs per clutch;Explosive;NA;0;Yang 1991, Ye et al. 1993;Pope 1931;NA;NA
+Rhacophoridae;Rhacophorus rhodopus;35;48.7;125;eggs per clutch;NA;NA;0;Fei et al. 2009;NA;NA;NA
+Rhacophoridae;Rhacophorus schlegelii;41.3;57;475;eggs per clutch;NA;NA;NA;Inger 1947, Okada 1966;Fei et al. 2009;NA;NA
+Rhinophrynidae;Rhinophrynus dorsalis;70;75;5000;eggs per clutch;Explosive;NA;1;Campbell 1998;Savage 2002;NA;NA
+Scaphiopodidae;Scaphiopus couchii;NA;NA;3310;eggs per clutch;Explosive;NA;1;Degenhardt et al. 1996;Wells 1977;NA;NA
+Scaphiopodidae;Scaphiopus holbrookii;NA;NA;NA;NA;Explosive;NA;1;Saenz et al. 2006;Wells 1977;NA;NA
+Scaphiopodidae;Scaphiopus hurterii;58;63;NA;NA;Explosive;NA;1;Wright and Wright 1949;Wells 1977;NA;NA
+Scaphiopodidae;Spea bombifrons;45;48.5;462;eggs per clutch;Explosive;NA;1;Wright and Wright 1949;Wright and Wright 1949, Smith 1950, Hoser 1989;Wells 1977;NA
+Scaphiopodidae;Spea hammondii;48.3;49.3;400;eggs per clutch;Explosive;NA;1;Wright and Wright 1949;Stebbins 1951;Wells 1977;NA
+Scaphiopodidae;Spea intermontana;50.5;57.2;325;eggs per clutch;Explosive;NA;1;Wright and Wright 1949, Nussbaum et al. 1983;Nussbaum et al. 1983, Stebbins 1951;Wells 1977;NA
+Sooglossidae;Sechellophryne pipilodryas;11.3;14.7;NA;NA;NA;NA;NA;Gerlach and Willi 2002;NA;NA;NA
+NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
