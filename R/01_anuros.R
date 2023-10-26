@@ -50,7 +50,7 @@ anuros_completo <- anuros_completo %>%
     #colocando as referências em uma coluna só
     mutate(Nelietal_refs = paste(reference1, reference2, reference3, reference4, sep = ", ")) %>% 
     # selecionando apenas as variáveis de interesse
-    select(c(1,2,6,14,16))
+    select(c(1,2,7,14,16))
     
 # formatando a limpando as referências
 anuros_completo <- anuros_completo %>% 
