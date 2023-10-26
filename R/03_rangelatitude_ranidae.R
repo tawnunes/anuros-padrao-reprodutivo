@@ -7,19 +7,19 @@
 # 
 # Discentes: Jonathan, Ruth Oliveira, Tawane Nunes
 # 
-# Comportamento Reprodutivo em anuros
+# Padrões Reprodutivos em Anuros: Uma Análise Latitude-dependente
 # 
 # Script 03: extrair lat min e max do range de ocorrência da família Hylidae
 
 # PACOTES ------------------------------------------------------------------
 
-library(sf)
+library(sf) # manipulação de dados espaciais 
 library(tidyverse) # manipulação dos dados
 
 # IMPORTANDO DADOS ---------------------------------------------------------
 
 # List all files and subdirectories recursively
-ranidae.shp <- list.files("data/shp_ranidae",pattern = ".shp", recursive = TRUE, full.names = TRUE)
+ranidae.shp <- list.files("data/raw/shp_ranidae",pattern = ".shp", recursive = TRUE, full.names = TRUE)
 
 ranges_ranidae <- data.frame(especie = character(0),
                              lat_max = numeric(0),
