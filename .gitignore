@@ -3,7 +3,6 @@
 .RData
 .Ruserdata
 .rar
-.shp
-.dbf
-.prj
-.cpg
+
+# não rastrear pasta com os shapefiles
+shp_ranidae
