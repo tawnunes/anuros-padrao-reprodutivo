@@ -7,7 +7,7 @@
 # 
 # Discentes: Jonathan, Ruth Oliveira, Tawane Nunes
 # 
-# Comportamento Reprodutivo em anuros
+# Padrões Reprodutivos em Anuros: Uma Análise Latitude-dependente
 # 
 # Script 02: Análises gerais
 
@@ -16,6 +16,7 @@
 library(tidyverse) # manipulação dos dados
 library(ggplot2) # visualização gráfica
 library(lme4) # modelos mistos
+library(DHARMa) # análise dos resíduos do modelo
 
 # IMPORTANTDO OS DADOS -----------------------------------------------------------------------------------------
 
@@ -26,7 +27,7 @@ anuros <- read.csv("data/processed/dados_anuros_completo.csv")
 anuros_reprod <- anuros %>% 
     # filtrando dados com espécies que tenham informação sobre padrões reprodutivos
     filter(!is.na(breeding_pattern)) %>% 
-    # filtrando dados com informação do range de ocorrência
+    # filtrando dados com informação da extenção geográfica de ocorrência
     filter(!is.na(total_area)) %>% 
     mutate(breeding_pattern = factor(breeding_pattern))
 
@@ -42,6 +43,8 @@ n_familia <- n_familia %>%
 # filtrando os dados para famílias que contém três ou mais espécies
 anuros_reprod <- anuros_reprod %>% 
     filter(family %in% n_familia$family)
+
+# ESTATÍSTICA DESCRITIVA ------------------------------------------------------
 
 # Número de espécies: 180
 n_distinct(anuros_reprod$species)
@@ -59,16 +62,39 @@ anuros_reprod %>%
               max_area = max(total_area),
               desviop_area = sd(total_area))
 
-# NORMALIZANDO OS DADOS DE ÁREA DO RANGE DE OCORRÊNICA ----------------------------------------------------------
+# Avaliando a distribuição da variável exlicativa
+hist(anuros_reprod$total_area)
+# considerando a grande dispersão dos dados da área de distribuição
+# Pode ser necessário transformações para a realização da análise
 
-# aplicando uma transformação linear sem perder a proporção entre os valores
-# normalização min-max
+# Avaliando distribuição da variável resposta
+plot(anuros_reprod$breeding_pattern)
+# proporção semelhante entre as duas categorias
+
+# visualizando relação entre variável resposta e explicativa
+plot(anuros_reprod$total_area, anuros_reprod$breeding_pattern)
+# não é possível identificar um padrão claro
+
+# TRANSFORMANDO OS DADOS DE ÁREA DO RANGE DE OCORRÊNICA ----------------------------------------------------------
+
+# aplicando diferentes transformações
 anuros_reprod <- anuros_reprod %>% 
-    mutate(total_area_norm = ((total_area - min(total_area))/ (max(total_area) - min(total_area))),
-           sqrt.total_area = sqrt(total_area),
-           s.total_area = scale(total_area))
+    mutate(
+        # aplicando uma transformação linear sem perder a proporção entre os valores
+        # normalização min-max
+        norm.total_area = ((total_area - min(total_area))/ (max(total_area) - min(total_area))),
+        # extraindo a raiz quadrada   
+        sqrt.total_area = sqrt(total_area),
+        # padronizando
+        s.total_area = as.numeric(scale(total_area)))
 
-# VISUALIZAÇÃO GRÁFICA ------------------------------------------------------------------------------------------
+# reavaliando as relações
+plot(anuros_reprod$norm.total_area, anuros_reprod$breeding_pattern)
+plot(anuros_reprod$sqrt.total_area, anuros_reprod$breeding_pattern)
+plot(anuros_reprod$s.total_area, anuros_reprod$breeding_pattern)
+# aparentemente raiz quadrada é mais efetiva
+
+# COMPARANDO AS DISTRIBUIÇÕES ------------------------------------------------------------------------------------------
 
 # area range original
 anuros_reprod %>% 
@@ -84,22 +110,22 @@ anuros_reprod %>%
 
 # area range normalizada
 anuros_reprod %>% 
-    ggplot(aes(x = total_area_norm, fill = breeding_pattern)) +
+    ggplot(aes(x = norm.total_area, fill = breeding_pattern)) +
     geom_density(alpha = 0.5)+
     #geom_histogram(binwidth = 100000, position = "identity", alpha = 0.5) +
     labs(title = "Sobreposição de Curvas de densidade",
-         x = "Área total do Range de Ocorrência (km²)",
+         x = "Área total do Range de Ocorrência (km²) (normalizada)",
          y = "Densidade") +
     scale_fill_manual(values = c("Explosive" = "green", "Prolonged" = "red"))+
     theme_classic()
 
-# area range normalizada
+# area range raiz quadrada
 anuros_reprod %>% 
     ggplot(aes(x = sqrt.total_area, fill = breeding_pattern)) +
     geom_density(alpha = 0.5)+
     #geom_histogram(binwidth = 100000, position = "identity", alpha = 0.5) +
     labs(title = "Sobreposição de Curvas de densidade",
-         x = "Área total do Range de Ocorrência (km²)",
+         x = "Raiz quadrada da área total do Range de Ocorrência (km²)",
          y = "Densidade") +
     scale_fill_manual(values = c("Explosive" = "green", "Prolonged" = "red"))+
     theme_classic()
@@ -107,102 +133,20 @@ anuros_reprod %>%
 
 # ANÁLISES PARA O TESTE DA HIPÓTESE: Padrão reprodutivo ------------------------------------------------------
 
-modelo_nulo <- glmer(breeding_pattern ~ 1 +(1|family), family = binomial, data = anuros_reprod)
-summary(modelo_nulo)
-logLik(modelo_nulo)
+modelo1 <- glmer(breeding_pattern ~ sqrt.total_area + (1|family), family = binomial, data = anuros_reprod,
+                 glmerControl(optimizer = "bobyqa",
+                              optCtrl = list(maxfun = 100000)))
+# mesmo aumentando o número de iterações e alterando o otimizador o modelo não converge
 
-modelo1 <- glmer(breeding_pattern ~ s.total_area + (1|family), family = binomial, data = anuros_reprod)
-library(DHARMa)
-simulateResiduals(modelo1, plot=T, n = 1000)
-summary(modelo1)
+# utilizando a extensão geográfica padronizada
+modelo2 <- glmer(breeding_pattern ~ s.total_area + (1|family), family = binomial, data = anuros_reprod)
+# modelo convergiu
 
-export_summs(modelo1, scale = F, digits = 5)
-confint(modelo1, level = 0.95)
-stargazer(modelo1, nobs = T, type = "text")
+simulateResiduals(modelo2, plot=T, n = 1000)
+# modelo válido
 
-modelo2 <- glmer(breeding_pattern ~ small_range +(1|family), family = binomial, data = anuros_reprod)
 summary(modelo2)
-
-
-
-# Hipotese reprodução e habito de vida --------------------------------------------------------------------------------
-
-anuros_habit <- anuros %>% 
-    # filtrando dados com espécies que tenham informação sobre padrões reprodutivos
-    filter(!is.na(breeding_pattern)) %>% 
-    # filtrando dados com informação do range de ocorrência
-    filter(!is.na(habit)) %>% 
-    mutate(breeding_pattern = factor(breeding_pattern))
-
-# listando número de espécies por família
-n_familia <- anuros_habit %>% 
-    group_by(family) %>% 
-    summarise(n =  n())
-
-# filtrando famílias com três ou mais espécies
-n_familia <- n_familia %>% 
-    filter(n >=3)
-
-# filtrando os dados para famílias que contém três ou mais espécies
-anuros_habit<- anuros_habit %>% 
-    filter(family %in% n_familia$family) %>% 
-    filter(family == "Hylidae")
-
-# Número de espécies: 22
-n_distinct(anuros_habit$species)
-
-# Número de famílias: 2
-n_distinct(anuros_habit$family)
-
-
-
-
-
-# Análisar fecundidade e tamanho da área de ocorrência --------------------------------------------------------
-
-anuros_fert <- anuros %>% 
-    filter(!is.na(fecundity_measure)) %>% 
-    filter(fecundity_unit == "eggs per clutch")
-
-n_per_family <- anuros_fert %>% 
-            group_by(family) %>% 
-            summarise(N = n())
-
-anuros_fert %>% 
-    ggplot(aes(x = fecundity_measure)) +
-    geom_density(alpha = 0.5)+
-    theme_classic()
-
-# Análises -----
-fert_modelo_nulo <- glmer(fecundity_measure ~ 1 +(1|family), family = Gamma(link = "log"), data = anuros_fert)
-summary(fert_modelo_nulo)
-
-fert_modelo1 <- glmer(fecundity_measure ~ scale(total_area) + (1|family), family = Gamma(link = "log"), data = anuros_fert)
-summary(fert_modelo1)
-
-fert_modelo2 <- glmer(fecundity_measure ~ scale(total_area)+ breeding_pattern + (1|family), family = Gamma(link = "log"), data = anuros_fert)
-summary(fert_modelo2)
-
-fert_modelo3 <- glmer(fecundity_measure ~ scale(total_area)+ breeding_pattern + scale(total_area)*breeding_pattern + (1|family), family = Gamma(link = "log"), data = anuros_fert)
-summary(fert_modelo3)
-
-fert_modelo4 <- glmer(fecundity_measure ~ breeding_pattern + (1|family), family = Gamma(link = "log"), data = anuros_fert)
-summary(fert_modelo4)
-
-ggplot(anuros_fert, aes(x = scale(total_area), y = fecundity_measure, fill = family)) +
-    geom_point() +  # Adiciona os pontos de dispersão
-    geom_smooth(method = "glm", se = TRUE, color = "gray") +  # Adiciona a linha de regressão
-    labs(title = "Relação entre Total Area e Fecundity Measure",
-         x = "Total Area (Padronizado)",
-         y = "Fecundity Measure") +
-    theme_minimal()
-
-
-fert_modelo2 <-  glmer(fecundity_measure ~ small_range +(1|family), family = Gamma(link = "log"), data = anuros_fert)
-summary(fert_modelo2)
-
-
-
+# não significativo
 
 # SELECIONANDO FAMÍLIA PARA REFINAMENTO DA ÁREA DE OCORRÊNICA ---------------------------------------------------------
 
@@ -216,8 +160,6 @@ hylidae %>%  group_by(breeding_pattern) %>%
     summarise(n = n(),
               mean_area = mean(total_area))
 
-write.csv2(hylidae, "data/hylidae.csv", row.names = F)
-
 hylidae %>% 
     ggplot(aes(x = total_area, fill = breeding_pattern)) +
     geom_density(alpha = 0.5)+
@@ -227,8 +169,6 @@ hylidae %>%
          y = "Densidade") +
     scale_fill_manual(values = c("Explosive" = "green", "Prolonged" = "red"))+
     theme_classic()
-
-write.csv(hylidae, "data/processed/hylidae.csv", row.names = F)
 
 ## Ranidae SELECIONADA ------------------------------------------------------
 
