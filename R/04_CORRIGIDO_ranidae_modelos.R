@@ -8,12 +8,13 @@
 # 
 # Comportamento Reprodutivo em anuros
 # 
-# Script 04: Familia Ranidae
+# Script 04: Análises da relação entre padrão reprodutivo e latitude para a familia Ranidae
 
 # PACOTES ------------------------------------------------------------------------------------------------------
 
 library(tidyverse) # manipulação dos dados
 library(ggplot2) # visualização gráfica
+library(car) # para teste de colinearidade
 
 # IMPORTANTDO OS DADOS -----------------------------------------------------------------------------------------
 
@@ -27,14 +28,16 @@ ranges_ranidae <- ranges_ranidae %>%
 # UNINDO INFORMAÇÕES --------------------------------------------------------------------------------------------
 
 ranidae_completo <- ranidae %>% 
-    left_join(ranges_ranidae, by = "species") %>% 
-    mutate(breeding_pattern = as.factor(tolower(breeding_pattern)),
-           prolonged = ifelse(breeding_pattern == "prolonged", 1,0),
-           s.total_area = as.numeric(scale(total_area))) %>% 
-    mutate(lat_max = abs(lat_max),
-           lat_min = abs(lat_min)) %>% 
-    select(species, breeding_pattern, total_area, s.total_area,lat_min,lat_max,amplitude_lat,centroide_lat)
+    # unindo as informações
+    left_join(ranges_ranidae, by = "species") %>%
+    # definindo variáveis
+    mutate(f.breeding_pattern = as.factor(tolower(breeding_pattern)),
+           prolonged = ifelse(f.breeding_pattern == "prolonged", 1,0),
+           # utilizando valores absolutos para refletir distância da região equatorial
+           lat_max = abs(lat_max),
+           lat_min = abs(lat_min))
 
+# ESTATÍSTICA DESCRITIVA ------------------------------------------------------------------------------------------
 
 ranidae_completo %>% group_by(breeding_pattern) %>% 
     summarise(n_species = n(),
@@ -67,79 +70,40 @@ panel.cor <- function(x, y, digits = 2, prefix = "", cex.cor, ...)
 {
     usr <- par("usr"); on.exit(par(usr))
     par(usr = c(0, 1, 0, 1))
-    r <- abs(cor(x, y))
+    r <- abs(cor(x, y, method = "spearman"))
     txt <- format(c(r, 0.123456789), digits = digits)[1]
     txt <- paste0(prefix, txt)
     if(missing(cex.cor)) cex.cor <- 0.8/strwidth(txt)
     text(0.5, 0.5, txt, cex = cex.cor * r)
 }
-pairs(ranidae_completo[,2:8], upper.panel=panel.cor, diag.panel=panel.hist)
+pairs(ranidae_completo[,c(10:15,17)], upper.panel=panel.cor, diag.panel=panel.hist)
 
 
 
 # ANÁLISES ------------------------------------------------------------------------------------
 names(ranidae_completo)
 
-modelo1 <- glm(breeding_pattern ~ s.total_area + lat_min + lat_max + amplitude_lat + centroide_lat, 
+modelo1 <- glm(f.breeding_pattern ~ lat_min + lat_max + amplitude_lat, 
                family = binomial, data = ranidae_completo)
-library(car)
+
 vif(modelo1)
 
-
-library(PerformanceAnalytics)
-chart.Correlation((ranidae_completo[4:8]), histogram = TRUE, pch = "+")
-
-modelo2 <- glm(breeding_pattern ~ s.total_area + lat_min + amplitude_lat + centroide_lat, 
+modelo2 <- glm(f.breeding_pattern ~ lat_max + amplitude_lat, 
                family = binomial, data = ranidae_completo)
+
 vif(modelo2)
 
-modelo3 <- glm(breeding_pattern ~ s.total_area + amplitude_lat + centroide_lat, 
+simulateResiduals(modelo2, plot =T, n = 1000)
+# modelo validado
+
+drop1(modelo2, test = "Chisq")
+
+summary(modelo2)
+
+modelo3 <- glm(f.breeding_pattern ~ lat_max, 
                family = binomial, data = ranidae_completo)
-vif(modelo3)
+
 simulateResiduals(modelo3, plot =T, n = 1000)
+# modelo validado
 
-modelo4 <- glm(breeding_pattern ~ s.total_area + centroide_lat, 
-               family = binomial, data = ranidae_completo)
-vif(modelo4)
-library(DHARMa)
-simulateResiduals(modelo4, plot =T, n = 1000)
-
-anova(modelo3, modelo5, test = "Chisq")
-
-modelo5 <- glm(breeding_pattern ~ amplitude_lat + centroide_lat, 
-               family = binomial, data = ranidae_completo)
-vif(modelo5)
-
-simulateResiduals(modelo5, plot =T, n = 1000)
-AIC(modelo4, modelo5)
-
-summary(modelo5)
-
-drop1(modelo5, test = "Chisq")
-
-
-modelo6 <- glm(breeding_pattern ~ amplitude_lat + lat_max, 
-               family = binomial, data = ranidae_completo)
-vif(modelo6)
-
-simulateResiduals(modelo6, plot =T, n = 1000)
-AIC(modelo5, modelo6)
-
-summary(modelo6)
-
-drop1(modelo6, test = "Chisq")
-
-
-modelo7 <- glm(breeding_pattern ~ s.total_area + centroide_lat, 
-               family = binomial, data = ranidae_completo)
-vif(modelo7)
-
-simulateResiduals(modelo7, plot =T, n = 1000)
-AIC(modelo6, modelo7)
-
-summary(modelo7)
-
-drop1(modelo7, test = "Chisq")
-
-
-
+summary(modelo3)
