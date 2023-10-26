@@ -15,10 +15,6 @@
 # PACOTES ------------------------------------------------------------------------------------------------------
 
 library(tidyverse) # manipulação do dados
-library(xml2) # manipulação de dados em xml
-library(httr) # acessar http
-library(stringr) # operações com strings (texto)
-library(writexl) # exportar em formato do excel
 
 # IMPORTANTDO OS DADOS -----------------------------------------------------------------------------------------
 
