@@ -9,7 +9,7 @@
 # 
 # Padrões Reprodutivos em Anuros: Uma Análise Latitude-dependente
 # 
-# Script 03: extrair lat min e max do range de ocorrência da família Hylidae
+# Script 03: extrair lat min e max do range de ocorrência da família Ranidae
 
 # PACOTES ------------------------------------------------------------------
 
