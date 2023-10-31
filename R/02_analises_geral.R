@@ -83,59 +83,57 @@ plot(anuros_reprod$total_area, anuros_reprod$breeding_pattern)
 
 # GRÁFICO DAS FAMÍLIAS -------------------------------------------------------------------------------------------
 
+# criando data frame com número de espécies por família
 anuros_graph <- anuros_reprod %>% 
     group_by(family, breeding_pattern) %>% 
     summarise(n_species = n()) %>% 
     arrange(breeding_pattern)
 
-# Set a number of 'empty bar' to add at the end of each group
-empty_bar <- 1
+# número de barras vazias entre as categorias de padrão reprodutivo
+empty_bar <- 3
+# adicionando em um dataframe vazio e preenchendo com as informações do dataframe original
 to_add <- data.frame( matrix(NA, empty_bar*nlevels(anuros_graph$breeding_pattern), ncol(anuros_graph)) )
 colnames(to_add) <- colnames(anuros_graph)
 to_add$breeding_pattern <- rep(levels(anuros_graph$breeding_pattern), each=empty_bar)
+# adicionando as barras vazias ao data frame com os dados
 data <- rbind(anuros_graph, to_add)
 data <- data %>% arrange(breeding_pattern, n_species)
 data$id <- seq(1, nrow(data))
 
-# Get the name and the y position of each label
+# Para adicionar o texto com o nome das famílias
 label_data <- data
 number_of_bar <- nrow(label_data)
-angle <- 90 - 360 * (label_data$id-0.5) /number_of_bar     # I substract 0.5 because the letter must have the angle of the center of the bars. Not extreme right(1) or extreme left (0)
+angle <- 90 - 360 * (label_data$id-0.5) /number_of_bar # definindo angulo do texto
 label_data$hjust <- ifelse( angle < -90, 1, 0)
 label_data$angle <- ifelse(angle < -90, angle+180, angle)
 
-# prepare a data frame for base lines
-base_data <- data %>% 
-    group_by(breeding_pattern) %>% 
-    summarize(start=min(id), end=max(id) - empty_bar) %>% 
-    rowwise() %>% 
-    mutate(title=mean(c(start, end)))
+# criando o gráfico e salvando em svg para colocar a legenda mais próxima do gráfico usando o inkscape
+svg("figures/01_especies_familias.svg", width = 6.9, height = 4, pointsize = 8)
 
-# Make the plot
-p <- ggplot(data, aes(x=as.factor(id), y=n_species, fill=breeding_pattern)) +       # Note that id is a factor. If x is numeric, there is some space between the first bar
+ggplot(data, aes(x=as.factor(id), y=n_species, fill=breeding_pattern)) +       # Note that id is a factor. If x is numeric, there is some space between the first bar
     geom_bar(stat="identity", alpha=0.5) +
     ylim(-20,50) +
     theme_minimal() +
     theme(
-        legend.position = "top",
+        legend.position = "bottom",
         axis.text = element_blank(),
         axis.title = element_blank(),
         panel.grid = element_blank(),
-        #plot.margin = unit(rep(-1,4), "cm") 
-    ) 
-
-p2 <- p + scale_fill_manual(name = "Padrão Reprodutivo", 
+        legend.text = element_text(size = 8),
+        legend.title = element_text(size = 8),
+        legend.margin = margin(0, 0, 20, 0),
+    ) +
+    coord_polar() + 
+    scale_fill_manual(name = "Padrão Reprodutivo:", 
                       labels =c("Explosivo", "Prolongado"),
                       values = c("darkolivegreen","darkorange"))+
-    coord_polar() + 
+     
     geom_text(data=label_data, aes(x=id, y=n_species+5, 
                                    label=paste0("(",n_species,") ",family), hjust=hjust), 
-              Color="black", fontface="bold",alpha=0.6, size=4, angle= label_data$angle, inherit.aes = FALSE)#+
+              color="black", size=2.5, angle= label_data$angle, inherit.aes = FALSE)
 
+dev.off()
 
-p
-
-#   ERROOOOO
 
 # TRANSFORMANDO OS DADOS DE ÁREA DO RANGE DE OCORRÊNICA ----------------------------------------------------------
 
@@ -272,7 +270,7 @@ Leptodactylidae %>%
     scale_fill_manual(values = c("Explosive" = "green", "Prolonged" = "red"))+
     theme_classic()
 
-##  Bufonidae ------------------------------------------------------
+## Bufonidae ------------------------------------------------------
 
 Bufonidae <- anuros_reprod %>% 
     filter(family == "Bufonidae")
