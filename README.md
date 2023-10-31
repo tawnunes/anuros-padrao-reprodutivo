@@ -2,7 +2,7 @@
 
 # Padrões Reprodutivos em Anuros: Uma Análise Latitude-dependente
 
-**Autores:** Jonathan [📧](mailto:); Ruth Oliveira [📧](mailto:ruthbennoda@gmail.com); Tawane Yara Nunes [📧](mailto:taw.ynunes@gmail.com)
+**Autores:** Jonathan Sidoski [📧](mailto:biododo@gmail.com); Ruth Oliveira [📧](mailto:ruthbennoda@gmail.com); Tawane Yara Nunes [📧](mailto:taw.ynunes@gmail.com)
 
 ### Descrição
 
