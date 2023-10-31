@@ -112,7 +112,7 @@ svg("figures/01_especies_familias.svg", width = 6.9, height = 4, pointsize = 8)
 
 ggplot(data, aes(x=as.factor(id), y=n_species, fill=breeding_pattern)) +       # Note that id is a factor. If x is numeric, there is some space between the first bar
     geom_bar(stat="identity", alpha=0.5) +
-    ylim(-20,50) +
+    ylim(-30,50) +
     theme_minimal() +
     theme(
         legend.position = "bottom",

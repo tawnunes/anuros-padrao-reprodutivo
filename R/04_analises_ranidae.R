@@ -16,6 +16,7 @@ library(tidyverse) # manipulação dos dados
 library(ggplot2) # visualização gráfica
 library(car) # para teste de colinearidade
 library(DHARMa) # validação do modelo por análise dos resíduos
+library(ggeffects)
 
 # IMPORTANTDO OS DADOS -----------------------------------------------------------------------------------------
 
@@ -34,6 +35,9 @@ ranidae_completo <- ranidae %>%
     # definindo variáveis
     mutate(f.breeding_pattern = as.factor(tolower(breeding_pattern)),
            prolonged = ifelse(f.breeding_pattern == "prolonged", 1,0),
+           s.area_occ_km2 = as.numeric(scale(area_occ_km2)),
+           norm.area_occ = ((area_occ_km2 - min(area_occ_km2))/ (max(area_occ_km2) - min(area_occ_km2))),
+           sqrt.area_occ = sqrt(area_occ_km2),
            # utilizando valores absolutos para refletir distância da região equatorial
            lat_max = lat_max,
            abs.lat_min = abs(lat_min))
@@ -106,50 +110,86 @@ panel.cor <- function(x, y, digits = 2, prefix = "", cex.cor, ...)
     if(missing(cex.cor)) cex.cor <- 0.8/strwidth(txt)
     text(0.5, 0.5, txt, cex = cex.cor * r)
 }
-pairs(ranidae_completo[,c(10:14,17)], upper.panel=panel.cor, diag.panel=panel.hist)
+names(ranidae_completo)
 
+png("figures/suplementar_01_correlograma.png", 
+    width = 177, height = 120, units = "mm", res = 300, pointsize = 8)
+pairs(ranidae_completo[,c(10,21,13, 14, 18, 19,20, 17)], upper.panel=panel.cor, diag.panel=panel.hist)
+dev.off()
 
 
 # ANÁLISES ------------------------------------------------------------------------------------
 names(ranidae_completo)
 
-modelo1 <- glm(f.breeding_pattern ~ lat_min + lat_max + amplitude_lat + lat_min*amplitude_lat + lat_max*amplitude_lat, 
+modelo1 <- glm(f.breeding_pattern ~ abs.lat_min + lat_max + norm.area_occ + abs.lat_min*norm.area_occ + lat_max*norm.area_occ, 
+               family = binomial, data = ranidae_completo)
+# modelo não convergiu
+
+modelo1a <- glm(f.breeding_pattern ~ abs.lat_min + lat_max + norm.area_occ + lat_max*norm.area_occ, 
+               family = binomial, data = ranidae_completo)
+# modelo não convergiu
+
+modelo1b <- glm(f.breeding_pattern ~ abs.lat_min + lat_max + norm.area_occ, 
+                family = binomial, data = ranidae_completo)
+
+vif(modelo1b)
+# alta colinearidade entre lat max e área
+
+modelo2 <- glm(f.breeding_pattern ~ abs.lat_min + lat_max, 
                family = binomial, data = ranidae_completo)
 
-summary(modelo1)
-# nenhuma interação significativa
+vif(modelo2)
+# baixa colineadirade
 
-modelo2 <- glm(f.breeding_pattern ~ lat_min + lat_max + amplitude_lat + lat_max*amplitude_lat, 
+png("figures/suplementar_02_modelo2.png", 
+    width = 177, height = 120, units = "mm", res = 300, pointsize = 8)
+simulateResiduals(modelo2, plot =T, n = 1000)
+# modelo valido
+dev.off()
+
+drop1(modelo2, test = "Chisq")
+# apenas lat max é importante
+
+
+modelo3 <- glm(f.breeding_pattern ~ lat_max, 
                family = binomial, data = ranidae_completo)
 
-summary(modelo2)
-# interação não significativa
-
-
-modelo3 <- glm(f.breeding_pattern ~ lat_min + lat_max + amplitude_lat, 
-               family = binomial, data = ranidae_completo)
-
-vif(modelo3)
-# algum erro 
-
-
-modelo4 <- glm(f.breeding_pattern ~ lat_max + amplitude_lat, 
-               family = binomial, data = ranidae_completo)
-
-vif(modelo4)
-
-
-simulateResiduals(modelo4, plot =T, n = 1000)
+png("figures/suplementar_03_modelo3.png", 
+    width = 177, height = 120, units = "mm", res = 300, pointsize = 8)
+simulateResiduals(modelo3, plot =T, n = 1000)
 # modelo validado
+dev.off()
 
-drop1(modelo4, test = "Chisq")
+summary(modelo3)
 
-summary(modelo4)
+# GRÁFICO DO MODELO ----------------------------------------------------------------------------------------------------------
 
-modelo5 <- glm(f.breeding_pattern ~ lat_max, 
-               family = binomial, data = ranidae_completo)
+mod <- ggpredict(modelo3, terms = "lat_max")
 
-simulateResiduals(modelo5, plot =T, n = 1000)
-# modelo validado
+pred.mod <- data.frame(x = mod$x, y=mod$predicted, cilow = mod$conf.low, ciup = mod$conf.high)
 
-summary(modelo5)
+breaks <- c(0, 0.25, 0.5, 0.75, 1)
+labels <- paste0(breaks*100, "%")
+
+png("figures/02_modelo3.png", 
+    width = 177, height = 120, units = "mm", res = 300, pointsize = 8)
+ggplot()+
+    geom_point(aes(lat_max, prolonged, color = breeding_pattern), data = ranidae_completo, size = 2.5)+
+    geom_smooth(data = pred.mod, aes(x,y), method = "loess", 
+                color = "gray10", linewidth = 0.5, linetype = 1, se = F)+
+    geom_ribbon(data = pred.mod, aes(x, ymin =cilow, ymax = ciup), 
+                fill = "gray20", alpha = 0.1)+
+    theme_classic() +
+    theme(legend.position = "bottom",
+          legend.text = element_text(size = 9),
+          legend.title = element_text(size = 9),
+          axis.text = element_text(size = 9),
+          axis.title = element_text(size = 9),
+          axis.line = element_line(colour = "gray50"),
+          plot.margin = margin(20,20,20,20))+
+    scale_color_manual(name = "Padrão reprodutivo:",labels = c("Explosivo", "Prolongado"),values = c("darkolivegreen","darkorange")) +
+    scale_y_continuous(breaks = breaks, labels = labels)+
+    scale_x_continuous(breaks = c(10,20,30,40,50,60,70))+
+    labs(y = "Probabilidade Predita",
+         x= "Latitude Máxima da Distribuição Geográfica")
+dev.off()
